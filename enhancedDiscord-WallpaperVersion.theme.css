@@ -1,4 +1,4 @@
-//META{"name":"Enhanced Discord Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"1.1.4"}*//{}
+//META{"name":"Enhanced Discord Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"2.0.5"}*//{}
 /*
 ███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
 ██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
@@ -16,7 +16,7 @@
 ========================================
 #  Enhanced Discord Theme              #
 #  By Spectra#7698                     #
-#  Version: 1.1.4                      #
+#  Version: 2.0.5                      #
 ========================================
 ###################################################################################################
 ###################################################################################################
@@ -43,7 +43,6 @@
   */
 }
 
-
 /*
 ###################################################################################################
 ###################################################################################################
@@ -56,55 +55,79 @@
 .theme-dark .inner-zqa7da,
 .theme-dark .search .search-bar,
 .contentSelectedText-3wUhMi,
+.private-channels .channel a,
 .theme-dark .ui-standard-sidebar-view .content-region,
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.6);
 }
 a,
 .theme-dark .ui-standard-sidebar-view {
     background: transparent !important;
 }
 .message-group {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.6);
     color: rgba(255,255,255,1) !important;
 }
 .userPopout-3XzG_A,
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.6);
 }
 
-.guilds-wrapper,
-.headerTop-3C2Zn0,
-.theme-dark .quickMessage-1yeL4E,
-.theme-dark .search .search-bar,
-.theme-dark .modal-3HD5ck,
-.theme-dark .footer-2yfCgX,
-.contentSelectedText-3wUhMi,
-.contentSelectedVoice-1WDIBM,
-.theme-dark .menu-Sp6bN1,
-.theme-dark .bar-2Qqk5Z,
-.theme-dark .dockItem-2kQDqg:hover,
-.theme-dark .divider-1pnAR2,
-.theme-dark .searchBar-1MOL6S,
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
-.theme-dark .member-3W1lQa:hover .content-OzHfo4,
-.guilds-wrapper .scroller-wrap .scroller,
-.search-bar.search-bar-light .search-bar-inner,
-.themeDefault-24hCdX.sizeDefault-2YlOZr,
-.need-help-modal.deprecated .header,
-.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected),
-.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover{
-  background: var(--dark);
+.typing-2GQL18 {
+    top: -22px !important;
+    border-radius: 6px;
+    background: transparent !important;
 }
+
+.private-channels .channel a {
+    margin: 0;
+}
+
+.feed-1o0xmF {
+    background-color: rgba(0,0,0,0.3);
+}
+.theme-dark .activityFeed-28jde9 {
+    background-color: transparent;
+}
+.theme-dark .card-7JP0BX,
+.theme-dark .header-1RC2Wb {
+    background-color: rgba(0,0,0,0.8);
+}
+
 .icon-3o6xvg,
-.theme-dark .inner-zqa7da,
 .guilds-wrapper .guilds .guild-icon {
     background-color: var(--dark);
 }
+.private-channels .channel a, {
+    background: rgba(0,0,0,0.0) !important;
+}
+.theme-dark .search .search-bar,
+.search-bar .search-bar-inner,
+.theme-dark .inner-zqa7da,
+.theme-dark .ui-standard-sidebar-view {
+    background: rgba(0,0,0,0.8) !important;
+}
+
+.theme-dark .message-group:not(.has-divider),
+.theme-dark .message-group,
+.scroller-wrap .scroller,
+.theme-dark .title-3qD0b-,
+.theme-dark .chat>.content{
+    background: transparent !important;
+}
+
+.message-group {
+    color: rgba(255,255,255,1) !important;
+}
+
+.theme-dark .messages-wrapper,
+.container-2Thooq {
+    background: transparent !important;
+}
+
 .theme-dark .ui-standard-sidebar-view .sidebar-region,
 .container-PNkimc,
 .channels-Ie2l6A,
-.container-2Thooq,
 .container-1UB9sr,
 .channel-SEolQq .da-channel,
 .form-deprecated .form-header,
@@ -133,23 +156,48 @@ a,
 .theme-dark .cardPrimaryEditable-3KtE4g,
 .theme-dark .cardPrimary-1Hv-to,
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
-.theme-dark .title-3qD0b-,
-.theme-dark .title-3qD0b-,
 .theme-dark .chat,
-.theme-dark .chat>.content,
-.scroller-wrap .scroller,
 .theme-dark .members-1998pB,
 .theme-dark .item-1GzJrl:hover,
 .theme-dark .ui-standard-sidebar-view .content-region,
-.theme-dark .friends-table, .theme-dark .messages-wrapper,
+.theme-dark .friends-table,
 .theme-dark .chat form,
 .theme-dark .headerBar-UHpsPw,
 .need-help-modal.deprecated .form-inner.loading,
 .need-help-modal.deprecated .footer,
+.news-2GDtLJ,
 .need-help-modal.deprecated .header input[type=text] {
-  background: rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0.4);
 }
 
+.guilds-wrapper,
+.headerTop-3C2Zn0,
+.theme-dark .quickMessage-1yeL4E,
+.theme-dark .search .search-bar,
+.theme-dark .modal-3HD5ck, .theme-dark .footer-2yfCgX,
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM,
+.theme-dark .menu-Sp6bN1, .theme-dark .bar-2Qqk5Z,
+.theme-dark .dockItem-2kQDqg:hover, .theme-dark .divider-1pnAR2,
+.theme-dark .searchBar-1MOL6S, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch, .theme-dark .member-3W1lQa:hover .content-OzHfo4,
+.guilds-wrapper .scroller-wrap .scroller, .search-bar.search-bar-light .search-bar-inner,
+.themeDefault-24hCdX.sizeDefault-2YlOZr, .need-help-modal.deprecated .header,
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected),
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover {
+    background: rgba(0,0,0,0.9);
+}
+
+.private-channels .channel a {
+    background: rgba(0,0,0,0) !important;
+}
+.theme-dark .ui-standard-sidebar-view {
+    background: rgba(0,0,0,0.8) !important;
+}
+
+.theme-dark .message-group:not(.has-divider),
+.theme-dark .message-group,
+.theme-dark .chat>.content{
+    background: transparent !important;
+}
 
 /* ## ============= ##
 ####    LABELS     ###
@@ -246,15 +294,6 @@ a,
     margin-top: 0;
     border-left: 1px solid #373c49;
 }
-.private-channels .search-bar,
-.scroller-2FKFPG{
-    border-right: 1px solid var(--dark);
-}
-.ui-standard-sidebar-view .content-column.default,
-.flex-horizontal>.flex-spacer,
-.theme-dark .title-3qD0b- {
-    border-left: 1px solid #373c49;
-}
 .chat .new-messages-bar {
     background-color: var(--main-color);
 }
@@ -279,10 +318,6 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .blurb-zsamaY,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .expireText-34b09Y {
     color: #fff !important;
-}
-.feed-1o0xmF {
-    background-color:var(--light);
-    border-left: 1px solid #373c49;
 }
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary,
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
