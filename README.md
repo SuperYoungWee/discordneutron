@@ -1,16 +1,16 @@
-# Enhanced Discord V2.0
+# Enhanced Discord V1.6
 ![ED Logo](https://image.ibb.co/jOJch8/ed_logo.png)
 
 # What is Enhanced discord ?
 Enhanced discord is a Discord theme meant to improve your discord experience
-Version 2 support Discord's lastests updates
+Version 1.6 support Discord's lastests updates
 You can easily change the theme's colors using HEX or RGB
 
 #### Default version
 ![Preview](https://i.imgur.com/H2DXbDA.png)
 
 #### Wallpaper version
-![Preview](https://preview.ibb.co/jS7njo/Untitled.png)
+![Preview](https://i.imgur.com/7SfqAu9.jpg)
 
 # Installation
 Simply dowload the color variant you like and put it in your Better Discord Themes folder
@@ -52,12 +52,15 @@ use the custom css editor in Better discord
 
 # Changelog
 
-#### Version 2.1.4
+### Version 1.6.0
+* fixed "is typing" bar that was overlaping with chat bar
+
+#### Version 1.5.2
 * Added wallpaper feature
 * Added status labels
 * Fixed new messages alert color
 
-#### Version 1.5.2
+#### Version 1.5.1
 * Fixed settings sidebar
 * Added style for scrollbar
 * Added new color variants
