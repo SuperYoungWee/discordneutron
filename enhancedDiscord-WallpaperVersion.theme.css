@@ -1,4 +1,4 @@
-//META{"name":"Enhanced Discord Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"2.0.5"}*//{}
+//META{"name":"Enhanced Discord Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"2.1.0"}*//{}
 /*
 ███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
 ██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
@@ -16,7 +16,7 @@
 ========================================
 #  Enhanced Discord Theme              #
 #  By Spectra#7698                     #
-#  Version: 2.0.5                      #
+#  Version: 2.1.0                      #
 ========================================
 ###################################################################################################
 ###################################################################################################
@@ -71,6 +71,19 @@ a,
 .userPopout-3XzG_A,
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
     background: rgba(0,0,0,0.6);
+}
+
+.scrollerWrap-1IAIlv,
+.theme-dark .guildsWrapper-5TJh6A {
+    background: rgba(0,0,0, 0.65) !important;
+    border: none !important;
+}
+
+.theme-dark #friends,
+.theme-dark .headerBar-UHpsPw, #friends .friends-table,
+.theme-dark #friends .friends-table .friends-table-header,
+#friends .friends-table .friends-table-body {
+    background: rgba(0,0,0, 0) !important;
 }
 
 .typing-2GQL18 {
