@@ -1,4 +1,4 @@
-# Enhanced Discord V1.6
+# Enhanced Discord V1.7
 ![ED Logo](https://image.ibb.co/jOJch8/ed_logo.png)
 
 # What is Enhanced discord ?
@@ -51,6 +51,9 @@ use the custom css editor in Better discord
     .wordmark-2iDDfm path {fill: #fff;}
 
 # Changelog
+
+### Version 1.7.0
+updated version for the last discord update
 
 ### Version 1.6.0
 * fixed "is typing" bar that was overlaping with chat bar
