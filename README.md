@@ -53,7 +53,7 @@ use the custom css editor in Better discord
 # Changelog
 
 ### Version 1.7.0
-updated version for the last discord update
+quick fix for the last discord update
 
 ### Version 1.6.0
 * fixed "is typing" bar that was overlaping with chat bar
