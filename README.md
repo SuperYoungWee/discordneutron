@@ -47,6 +47,7 @@ use the custom css editor in Better discord
 ### Don't like the white window bar ?
 use the custom css editor in Better discord
    
+    .appMount-3VJmYg, .typeWindows-1za-n7,
     .typeWindows-1za-n7 {background: var(--dark);}
     .wordmark-2iDDfm path {fill: #fff;}
 
