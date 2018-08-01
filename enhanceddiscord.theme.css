@@ -1,4 +1,4 @@
-//META{"name":"Enhanced Discord","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"1.6.0"}*//{}
+//META{"name":"Enhanced Discord","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"1.7.0"}*//{}
 /*
 ███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
 ██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
@@ -9,7 +9,7 @@
 ========================================
 #  Enhanced Discord Theme              #
 #  By Spectra#7698                     #
-#  Version: 1.6.0                      #
+#  Version: 1.7.0                      #
 ========================================
 */
 :root {
@@ -107,7 +107,7 @@
     padding: 1px 2px;
     text-transform: uppercase;
     vertical-align: top;
-    content: "Enhanced";
+    content: "Enhanced 1.7";
 }
 
 /* #################################### */
@@ -163,6 +163,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .theme-dark .dockItem-2kQDqg:hover,
 .theme-dark .divider-1pnAR2,
 .theme-dark .searchBar-1MOL6S,
+.theme-dark .guildsWrapper-5TJh6A,
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
 .theme-dark .member-3W1lQa:hover .content-OzHfo4,
 .guilds-wrapper .scroller-wrap .scroller,
@@ -221,7 +222,6 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .theme-dark .title-3qD0b-,
 .theme-dark .chat,
 .theme-dark .chat>.content,
-.scroller-wrap .scroller,
 .theme-dark .members-1998pB,
 .theme-dark .item-1GzJrl:hover,
 .theme-dark .ui-standard-sidebar-view .content-region,
