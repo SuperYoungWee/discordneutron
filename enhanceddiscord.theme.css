@@ -1,4 +1,4 @@
-//META{"name":"Enhanced Discord","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"1.7.0"}*//{}
+//META{"name":"Enhanced Discord","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"1.7.5"}*//{}
 /*
 ███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
 ██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
@@ -9,7 +9,7 @@
 ========================================
 #  Enhanced Discord Theme              #
 #  By Spectra#7698                     #
-#  Version: 1.7.0                      #
+#  Version: 1.7.5                      #
 ========================================
 */
 :root {
@@ -28,6 +28,43 @@
     --light: #282c34;
     --links: #4d79ff;
   */
+}
+
+/* ##====================##
+####   SERVER ICONS   ####
+##===================##*/
+.guild-1EfMGQ,
+.iconSizeLarge-161qtT,
+.guild-1EfMGQ .guildInner-3DSoA4 a {
+    height: 35px;
+    width: 35px;
+}
+
+.guildsWrapper-5TJh6A {
+    width: 45px;
+}
+.guilds-1q_RqH {
+    padding: 5px 0 5px 5px;
+}
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+    background: transparent;
+}
+.dms-rcsEnV,
+.guildSeparator-1X4GQ1,
+.friendsOnline-_wi_fM {
+    display: none;
+}
+
+/* ##===========##
+####   LINKS   ####
+##============##*/
+a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {color: var(--links) !important;}
+a {
+    background: transparent !important;
+}
+.theme-dark .markup-2BOw-j a,
+.theme-dark .embedTitleLink-1Zla9e {
+    color: var(--links) !important;
 }
 
 /* ## ============= ##
@@ -107,7 +144,7 @@
     padding: 1px 2px;
     text-transform: uppercase;
     vertical-align: top;
-    content: "Enhanced 1.7";
+    content: "Enhanced 1.7.5";
 }
 
 /* #################################### */
@@ -124,6 +161,20 @@
 #friends .friends-table {
     margin-top: 0;
     border-left: 1px solid #373c49;
+}
+.theme-dark .status-2s6iDp {
+    border-color: var(--dark);
+}
+.theme-dark .guildsAdd-21_IdK {
+    background: var(--dark);
+    border-color: var(--dark);
+}
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+    background: var(--grey);
+    border-color: #2f3136;
+}
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+    background: var(--dark);
 }
 .private-channels .search-bar,
 .scroller-2FKFPG{
