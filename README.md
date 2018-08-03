@@ -1,6 +1,7 @@
 # Enhanced Discord V1.7.5
 Add me on discord for suggestions or bug repport
 Spectra#7698
+
 ![ED Logo](https://image.ibb.co/jOJch8/ed_logo.png)
 
 # What is Enhanced discord ?
