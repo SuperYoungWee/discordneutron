@@ -1,4 +1,6 @@
-# Enhanced Discord V1.7
+# Enhanced Discord V1.7.5
+Add me on discord for suggestions or bug repport
+Spectra#7698
 ![ED Logo](https://image.ibb.co/jOJch8/ed_logo.png)
 
 # What is Enhanced discord ?
@@ -51,7 +53,19 @@ use the custom css editor in Better discord
     .typeWindows-1za-n7 {background: var(--dark);}
     .wordmark-2iDDfm path {fill: #fff;}
 
+### Don't like the labels ?
+delete the labels section from the theme
+
+ ### Don't like the small server icons ?
+ delete the server icons section from the theme
+
 # Changelog
+
+### Version 1.7.5
+* Added small server icons
+* fixed some backgrounds in the wallpaper version
+* fixed links, no more grey background
+* changed blocked messages background colors
 
 ### Version 1.7.0
 quick fix for the last discord update
