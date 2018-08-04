@@ -1,4 +1,4 @@
-//META{"name":"Enhanced Discord","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"1.7.5"}*//{}
+//META{"name":"Enhanced Discord","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"1.8.0"}*//{}
 /*
 ███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
 ██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
@@ -9,7 +9,7 @@
 ========================================
 #  Enhanced Discord Theme              #
 #  By Spectra#7698                     #
-#  Version: 1.7.5                      #
+#  Version: 1.8                        #
 ========================================
 */
 :root {
@@ -19,7 +19,6 @@
   --grey: #21252b;
   --light: #282c34;
   --links: #4d79ff;
-
   /* Default Colors
     --main-color: #1a3cb3;
     --main-darker: #0d1d59;
@@ -147,8 +146,39 @@ a {
     content: "Enhanced 1.7.5";
 }
 
-/* #################################### */
+/* BLOCKED MESSAGES */
+.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf,
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
+    background: var(--light);
+    border-color: var(--dark);
+}
+.theme-dark .messageGroupBlocked-3wrQQX{
+    border-color: var(--dark);
+}
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
+    background: var(--dark);
+}
 
+/* #################################### */
+.theme-dark .wrapper-1cBijl {
+    background: var(--dark);
+}
+
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header,
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3 {
+    background: var(--light);
+}
+.carousel-JbsNzL,
+.paginationItem-3-MBTL:after,
+.selectedPage-2JQS2s {
+    background: rgba(0,0,0,0.5);
+}
+
+.theme-dark .header-1RC2Wb:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.7);
+}
 .header-2o-2hj,
 .container-1UB9sr,
 .container-2Thooq,
@@ -402,6 +432,18 @@ a, .wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input{
 }
 .noticeInfo-3_iTE1 {
   background-color: var(--main-color);
+}
+.theme-dark .quickswitcher-3JagVE,
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    background: var(--dark);
+}
+.theme-dark .input-2VB9rf,
+.theme-dark .resultFocused-3aIoYe{
+    background-color: var(--grey);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G {
+    background: rgba(0,0,0,0.2);
+    border-color: var(--dark);
 }
 .theme-dark .cardPrimaryOutline-29Ujqw,
 .theme-dark .cardPrimaryEditable-3KtE4g {border-color:var(--dark);}
