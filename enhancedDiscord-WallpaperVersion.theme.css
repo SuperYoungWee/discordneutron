@@ -1,4 +1,4 @@
-//META{"name":"Enhanced Discord Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"2.1.0"}*//{}
+//META{"name":"Enhanced Discord Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"2.3.0"}*//{}
 /*
 ███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
 ██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
@@ -16,7 +16,7 @@
 ========================================
 #  Enhanced Discord Theme              #
 #  By Spectra#7698                     #
-#  Version: 2.1.0                      #
+#  Version: 2.3.0                      #
 ========================================
 ###################################################################################################
 ###################################################################################################
@@ -108,9 +108,6 @@ a,
 .theme-dark .status-2s6iDp {
     border-color: var(--dark);
 }
-.container-2Thooq {
-    background: rgba(0,0,0,0.4) !important;
-}
 .icon-3o6xvg,
 .guilds-wrapper .guilds .guild-icon {
     background-color: var(--dark);
@@ -128,14 +125,26 @@ a,
 .theme-dark .message-group,
 .scroller-wrap .scroller,
 .theme-dark .title-3qD0b-,
+.theme-dark .members-1998pB,
 .theme-dark .chat>.content{
     background: transparent !important;
+}
+.theme-dark .quickswitcher-3JagVE,
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    background: rgba(0,0,0,0.9);
+}
+.theme-dark .input-2VB9rf,
+.theme-dark .resultFocused-3aIoYe{
+    background-color: rgba(0,0,0,0.9);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G {
+    background: rgba(0,0,0,0.2);
+    border-color: var(--dark);
 }
 .message-group {
     color: rgba(255,255,255,1) !important;
 }
-.theme-dark .messages-wrapper,
-.container-2Thooq {
+.theme-dark .messages-wrapper {
     background: transparent !important;
 }
 .theme-dark .ui-standard-sidebar-view .sidebar-region,
@@ -170,7 +179,6 @@ a,
 .theme-dark .cardPrimary-1Hv-to,
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
 .theme-dark .chat,
-.theme-dark .members-1998pB,
 .theme-dark .item-1GzJrl:hover,
 .theme-dark .ui-standard-sidebar-view .content-region,
 .theme-dark .friends-table,
@@ -318,15 +326,47 @@ a,
 ####   LINKS   ####
 ##============##*/
 a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {color: var(--links) !important;}
-a {
+a,
+.theme-dark .markup-2BOw-j a, .theme-dark .embedTitleLink-1Zla9e {
     background: transparent !important;
 }
 .theme-dark .markup-2BOw-j a,
 .theme-dark .embedTitleLink-1Zla9e {
     color: var(--links) !important;
 }
-/*####################*/
 
+/* BLOCKED MESSAGES */
+.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf,
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
+    background: transparent;
+    border-color: rgba(0,0,0,0.6);
+}
+.theme-dark .messageGroupBlocked-3wrQQX{
+    border-color: rgba(0,0,0,0.6);
+}
+.theme-dark .messageGroupBlocked-3wrQQX,
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
+    background: rgba(0,0,0,0.6);
+}
+/*####################*/
+.theme-dark .wrapper-1cBijl {
+    background: rgba(0,0,0,0.6);
+}
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header,
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3 {
+    background: transparent;
+}
+.carousel-JbsNzL,
+.paginationItem-3-MBTL:after,
+.selectedPage-2JQS2s {
+    background: rgba(0,0,0,0.5);
+}
+
+.theme-dark .header-1RC2Wb:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.7);
+}
 .header-2o-2hj,
 .container-1UB9sr,
 .container-2Thooq,
