@@ -1,19 +1,22 @@
-# Enhanced Discord V1.7.5
-Add me on discord for suggestions or bug repport
-Spectra#7698
+# Enhanced Discord
 
-![ED Logo](https://image.ibb.co/jOJch8/ed_logo.png)
+Add me on Discord!
+
+### Spectra#7698
+
+help me to make this theme even better!
+Suggestions and bugs repport are welcome
 
 # What is Enhanced discord ?
-Enhanced discord is a Discord theme meant to improve your discord experience
-Version 1.6 support Discord's lastests updates
+Enhanced discord is a Discord theme meant to improve your discord experience, its meant to be more compact and customizable.
+The theme support Discord's lastests updates and updated few hours after and update
 You can easily change the theme's colors using HEX or RGB
+
+#### Wallpaper version
+![Preview](https://i.imgur.com/JOoFRGB.png)
 
 #### Default version
 ![Preview](https://i.imgur.com/H2DXbDA.png)
-
-#### Wallpaper version
-![Preview](https://i.imgur.com/7SfqAu9.jpg)
 
 # Installation
 Simply dowload the color variant you like and put it in your Better Discord Themes folder
@@ -61,6 +64,10 @@ delete the labels section from the theme
  delete the server icons section from the theme
 
 # Changelog
+
+### Version 1.8 / 2.3
+* Discord's latest update support
+* Minor fixes
 
 ### Version 1.7.5
 * Added small server icons
