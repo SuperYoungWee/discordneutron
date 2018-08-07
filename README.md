@@ -7,6 +7,9 @@ Add me on Discord!
 help me to make this theme even better!
 Suggestions and bugs repport are welcome
 
+# PEOPLE WHO HELPED WILL RECEIVE A STAR LABEL
+![Preview](https://i.imgur.com/2syMHOX.jpg)
+
 # What is Enhanced discord ?
 Enhanced discord is a Discord theme meant to improve your discord experience, its meant to be more compact and customizable.
 The theme support Discord's lastests updates and updated few hours after and update
@@ -65,7 +68,14 @@ delete the labels section from the theme
 
 # Changelog
 
-### Version 1.8 / 2.3
+### Version 1.9
+* Added labels file
+* Fixed many bugs
+* Added thank you message <3
+* Added Star label for helpers
+* Deleted compact server list for now
+
+### Version 1.8
 * Discord's latest update support
 * Minor fixes
 
