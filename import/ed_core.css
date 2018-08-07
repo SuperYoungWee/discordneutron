@@ -1,15 +1,4 @@
 @import url("https://rawgit.com/codedotspectra/enhanceddiscord/master/import/labels.css");
-/* thank you <3 */
-.ui-standard-sidebar-view .content-column.default::before {
-  display: block;
-  background-color: #1a3cb3;
-  content: "Thanks for downloading the Enhanced Discord theme !";
-  margin-bottom: 15px;
-  padding: 10px;
-  border: 2px solid #0d1d59;
-  border-radius: 6px;
-  color: #fff;
-}
 /* is typing */
 .typing-2GQL18 {
     top: -22px !important;
@@ -39,6 +28,31 @@ a {
 .theme-dark .embedInner-1-fpTo {
     background-color: rgba(0,0,0,.5);
     border-color: rgba(0,0,0,.9);
+}
+/* Plugins Settings */
+.plugin-settings {
+    color: #fff;
+}
+.plugin-settings button {
+    padding: 5px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    color: #fff;
+    margin-left: 5px;
+}
+.plugin-settings button:first-of-type {
+    margin-left: 0px;
+}
+.bda-slist .bda-footer button {
+    background-color: var(--main-color);
+}
+.plugin-settings input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background-color: var(--dark);
+    color: #fff;
+    margin-top: 5px;
 }
 /*  SCROLLBARS  */
 ::-webkit-scrollbar {border: none !important;width: 6px !important;}
@@ -71,7 +85,7 @@ a {
 
 /* MEMBERS */
 .theme-dark .membersGroup-v9BXpm {
-    text-align: left;
+    text-align: center;
     font-size: 14px;
     line-height: 0px;
     padding-bottom: 10px;
@@ -80,7 +94,7 @@ a {
     margin-bottom: 5px;
     height: 20px;
     color: #fff;
-    border-bottom: 1px solid var(--main-color);
+    border-bottom: none;
     width: 75%;
 }
 .content-OzHfo4 {
@@ -104,28 +118,6 @@ a {
 }
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
     background: var(--dark);
-}
-/* SERVER ICONS */
-.guild-1EfMGQ,
-.iconSizeLarge-161qtT,
-.guild-1EfMGQ .guildInner-3DSoA4 a {
-    height: 35px;
-    width: 35px;
-}
-
-.guildsWrapper-5TJh6A {
-    width: 45px;
-}
-.guilds-1q_RqH {
-    padding: 5px 0 5px 5px;
-}
-.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
-    background: transparent;
-}
-.dms-rcsEnV,
-.guildSeparator-1X4GQ1,
-.friendsOnline-_wi_fM {
-    display: none;
 }
 /*-----------*/
 .avatar-uploader-inner {background:transparent;}
