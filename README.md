@@ -7,8 +7,8 @@ Add me on Discord!
 help me to make this theme even better!
 Suggestions and bugs repport are welcome
 
-# PEOPLE WHO HELPED WILL RECEIVE A HELPER LABEL
-![Preview](https://i.imgur.com/2syMHOX.jpg)
+## People who helped will receive a Helper badge
+![Preview](https://i.imgur.com/GNAiiRA.jpg)
 
 # What is Enhanced discord ?
 Enhanced discord is a theme meant to improve your experience. Enhanced Discord is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
@@ -65,6 +65,22 @@ delete the labels section from the theme
  delete the server icons section from the theme
 
 # Changelog
+
+### Version 2.0
+* Added helper badge
+* Changed compact server list
+* Changed compact user list
+* Changed user popup
+* Added gradient color
+* Customized Plugin settings
+* Customized embeds
+* Customized code blocks
+* Fixed new messages notification color
+* Customized messages separators
+* Customized invite links
+* Fixed blocked messages
+* Fixed chat bar
+* Fixed "is typing"
 
 ### Version 1.9
 * Added labels file
