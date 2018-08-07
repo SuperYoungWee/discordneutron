@@ -7,13 +7,11 @@ Add me on Discord!
 help me to make this theme even better!
 Suggestions and bugs repport are welcome
 
-# PEOPLE WHO HELPED WILL RECEIVE A STAR LABEL
+# PEOPLE WHO HELPED WILL RECEIVE A HELPER LABEL
 ![Preview](https://i.imgur.com/2syMHOX.jpg)
 
 # What is Enhanced discord ?
-Enhanced discord is a Discord theme meant to improve your discord experience, its meant to be more compact and customizable.
-The theme support Discord's lastests updates and updated few hours after and update
-You can easily change the theme's colors using HEX or RGB
+Enhanced discord is a theme meant to improve your experience. Enhanced Discord is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
 
 #### Wallpaper version
 ![Preview](https://i.imgur.com/JOoFRGB.png)
