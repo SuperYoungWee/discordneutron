@@ -1,4 +1,5 @@
-//META{"name":"Enhanced Discord Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"2.3.0"}*//{}
+//META{"name":"Enhanced Discord Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"2.4.0"}*//{}
+@import url("https://rawgit.com/codedotspectra/enhanceddiscord/master/import/labels.css");
 /*
 ███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
 ██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
@@ -16,18 +17,16 @@
 ========================================
 #  Enhanced Discord Theme              #
 #  By Spectra#7698                     #
-#  Version: 2.3.0                      #
+#  Version: 2.4.0                      #
 ========================================
-###################################################################################################
-###################################################################################################
-*/
+###################################################################################################*/
 .app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-3jAH9b,.topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 {
-  background-image: url("https://img4.goodfon.com/original/3840x2160/9/c3/doroga-les-zima-fary.jpg") !important;
+  background-image: url("https://img5.goodfon.com/original/1680x1050/2/27/zelenyi-fon-tekstura-abstract-background-green-color.jpg") !important;
 }
 
 :root {
-  --main-color: #1a3cb3;
-  --main-darker: #0d1d59;
+  --main-color: #003322;
+  --main-darker: #001a11;
   --dark: #16181d;
   --grey: #21252b;
   --light: #282c34;
@@ -43,11 +42,7 @@
   */
 }
 
-/*
-###################################################################################################
-###################################################################################################
-*/
-
+/*###################################################################################################*/
 .app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-3jAH9b,.topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 {
   background-size: cover !important;
   background-position:center!important
@@ -205,101 +200,81 @@ a,
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover {
     background: rgba(0,0,0,0.9);
 }
-.private-channels .channel a {
-    background: rgba(0,0,0,0) !important;
-}
-.theme-dark .ui-standard-sidebar-view {
-    background: rgba(0,0,0,0.8) !important;
-}
+.private-channels .channel a {background: rgba(0,0,0,0) !important;}
+.theme-dark .ui-standard-sidebar-view {background: rgba(0,0,0,0.8) !important;}
 .theme-dark .message-group:not(.has-divider),
 .theme-dark .message-group,
-.theme-dark .chat>.content{
-    background: transparent !important;
+.theme-dark .chat>.content{background: transparent !important;}
+
+/* Embeds */
+.theme-dark .embedInner-1-fpTo {
+    background-color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.9);
 }
-/* ## ============= ##
-####    LABELS     ###
-## ============== ##*/
+
+/* Invite links */
+.theme-dark .wrapper-35wsBm {
+    background: rgba(0,0,0,0.7);
+    border: 2px solid rgba(0,0,0,0.9);
+}
+.theme-dark .guildIconExpired-2Qcq05 {background: rgba(0,0,0,0.9);}
+.guildIconExpired-2Qcq05 {border-radius:10px;}
+
+/* Messages separator w/ date */
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div,
+.theme-dark .divider-3gKybi span {background: rgba(0,0,0,0.8);}
+.theme-dark .divider-3gKybi:before {background-color:transparent;}
+
+/* New messages notification */
+.newMessagesBar-mujexs {background-color: var(--main-color);}
+
+/* CODE */
+.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {background: transparent;}
+.theme-dark .markup-2BOw-j pre {
+    background: rgba(0,0,0,0.5);
+    border-color: #000;
+}
+.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {background: rgba(0,0,0,0.7);}
+
+/* MEMBERS */
 .theme-dark .membersGroup-v9BXpm {
-    text-align: center;
-    line-height: 7px;
-    padding-bottom: 25px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 0px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    height: 20px;
     color: #fff;
     border-bottom: 1px solid var(--main-color);
     width: 75%;
-    margin-left: 12.5%;
+}
+.content-OzHfo4 {
+    padding: 8px;
+}
+.member-3W1lQa {
+    height: 35px;
+    margin: 1px;
+}
+.membersGroup-v9BXpm {
+    height: 20px;
 }
 
-.nameSelectedText-sp_EUw:before {content: "> ";}
-
-.botTagRegular-2HEhHi {
-    padding: 2px 3px 2px 3px;
-    background: #e68a00;
-    border-radius: 3px;
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
-    margin-left: 6px;
-    padding: 1px 2px;
-    text-transform: uppercase;
-    vertical-align: top;
+/* thank you <3 */
+.ui-standard-sidebar-view .content-column.default::before {
+  display: block;
+  background-color: #1a3cb3;
+  content: "Thanks for downloading the Enhanced Discord theme !";
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #0d1d59;
+  border-radius: 6px;
+  color: #fff;
 }
-.usernameOffline-3VSVLk:after {
-    padding: 2px 3px 2px 3px;
-    background: #f04747;
-    color: #fff;
-    border-radius: 3px;
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
-    margin-left: 6px;
-    padding: 1px 2px;
-    margin-top:1px;
-    text-transform: uppercase;
-    vertical-align: top;
-    content: "offline";
-}
-.usernameOnline-3jr_0Y:after {
-    padding: 2px 3px 2px 3px;
-    background: #35974c;
-    color: #fff;
-    border-radius: 3px;
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
-    margin-left: 6px;
-    padding: 1px 2px;
-    text-transform: uppercase;
-    vertical-align: top;
-    content: "online";
-    margin-top:1px;
-}
-.wordmark-2iDDfm:after {
-    padding: 2px 3px 2px 3px;
-    background: var(--main-color);
-    color: #fff;
-    border-radius: 3px;
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
-    margin-left: 6px;
-    padding: 1px 2px;
-    text-transform: uppercase;
-    vertical-align: top;
-    content: "Enhanced 2.2";
-}
-
-/* #################################### */
 /* ##====================##
 ####   SERVER ICONS   ####
-##===================##*/
+##===================##
 .guild-1EfMGQ,
 .iconSizeLarge-161qtT,
 .guild-1EfMGQ .guildInner-3DSoA4 a {
@@ -320,7 +295,7 @@ a,
 .guildSeparator-1X4GQ1,
 .friendsOnline-_wi_fM {
     display: none;
-}
+}*/
 
 /* ##===========##
 ####   LINKS   ####
@@ -362,7 +337,6 @@ a,
 .selectedPage-2JQS2s {
     background: rgba(0,0,0,0.5);
 }
-
 .theme-dark .header-1RC2Wb:hover {
     cursor: pointer;
     background: rgba(0,0,0,0.7);
@@ -393,7 +367,6 @@ a,
 .chat .new-messages-bar:hover {
     background-color: var(--main-darker);
 }
-
 .appMount-3VJmYg,
 .typeWindows-1za-n7 {background: #fff;}
 .wordmark-2iDDfm path {fill: #000;}
@@ -520,7 +493,7 @@ a,
 }
 .container-1UB9sr {border-bottom:none;}
 .clipboardInputInner-1EXMA3,
-a, .wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input{
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input{
     background-color: var(--light) !important;
 }
 .theme-dark .cardPrimaryOutline-29Ujqw,
@@ -530,7 +503,7 @@ a, .wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input{
 .ui-standard-sidebar-view .content-column.default {max-width:none;}
 
 /*  MESSAGES  */
-.channelTextArea-rNsIhG {margin: 5px 0 5px;}
+.channelTextArea-rNsIhG {margin: 5px 0 5px;padding-top: 3px !important;}
 .theme-dark .message-group:not(.has-divider) {border:none;}
 .message-group.compact.message-group {padding:0;}
 

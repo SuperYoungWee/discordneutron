@@ -1,4 +1,5 @@
-//META{"name":"Enhanced Discord","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"1.8.0"}*//{}
+//META{"name":"Enhanced Discord","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"1.9.0"}*//{}
+  @import url("https://rawgit.com/codedotspectra/enhanceddiscord/master/import/labels.css");
 /*
 ███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
 ██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
@@ -9,7 +10,7 @@
 ========================================
 #  Enhanced Discord Theme              #
 #  By Spectra#7698                     #
-#  Version: 1.8                        #
+#  Version: 1.9                        #
 ========================================
 */
 :root {
@@ -31,7 +32,7 @@
 
 /* ##====================##
 ####   SERVER ICONS   ####
-##===================##*/
+##===================##
 .guild-1EfMGQ,
 .iconSizeLarge-161qtT,
 .guild-1EfMGQ .guildInner-3DSoA4 a {
@@ -52,8 +53,18 @@
 .guildSeparator-1X4GQ1,
 .friendsOnline-_wi_fM {
     display: none;
+}*/
+/* thank you <3 */
+.ui-standard-sidebar-view .content-column.default::before {
+  display: block;
+  background-color: #1a3cb3;
+  content: "Thanks for downloading the Enhanced Discord theme !";
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #0d1d59;
+  border-radius: 6px;
+  color: #fff;
 }
-
 /* ##===========##
 ####   LINKS   ####
 ##============##*/
@@ -65,87 +76,60 @@ a {
 .theme-dark .embedTitleLink-1Zla9e {
     color: var(--links) !important;
 }
+/* Embeds */
+.theme-dark .embedInner-1-fpTo {
+    background-color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.9);
+}
 
-/* ## ============= ##
-####    LABELS     ###
-## ============== ##*/
+/* Invite links */
+.theme-dark .wrapper-35wsBm {
+    background: rgba(0,0,0,0.7);
+    border: 2px solid rgba(0,0,0,0.9);
+}
+.theme-dark .guildIconExpired-2Qcq05 {background: rgba(0,0,0,0.9);}
+.guildIconExpired-2Qcq05 {border-radius:10px;}
+
+/* Messages separator w/ date */
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div,
+.theme-dark .divider-3gKybi span {background: rgba(0,0,0,0.8);}
+.theme-dark .divider-3gKybi:before {background-color:transparent;}
+
+/* New messages notification */
+.newMessagesBar-mujexs {background-color: var(--main-color);}
+
+/* CODE */
+.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {background: transparent;}
+.theme-dark .markup-2BOw-j pre {
+    background: rgba(0,0,0,0.5);
+    border-color: #000;
+}
+.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {background: rgba(0,0,0,0.7);}
+
+/* MEMBERS */
 .theme-dark .membersGroup-v9BXpm {
-    text-align: center;
-    line-height: 7px;
-    padding-bottom: 25px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 0px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    height: 20px;
     color: #fff;
     border-bottom: 1px solid var(--main-color);
     width: 75%;
-    margin-left: 12.5%;
 }
-
-.nameSelectedText-sp_EUw:before {content: "> ";}
-
-.botTagRegular-2HEhHi {
-    padding: 2px 3px 2px 3px;
-    background: #e68a00;
-    border-radius: 3px;
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
-    margin-left: 6px;
-    padding: 1px 2px;
-    text-transform: uppercase;
-    vertical-align: top;
+.content-OzHfo4 {
+    padding: 8px;
 }
-.usernameOffline-3VSVLk:after {
-    padding: 2px 3px 2px 3px;
-    background: #f04747;
-    color: #fff;
-    border-radius: 3px;
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
-    margin-left: 6px;
-    padding: 1px 2px;
-    margin-top:1px;
-    text-transform: uppercase;
-    vertical-align: top;
-    content: "offline";
+.member-3W1lQa {
+    height: 35px;
+    margin: 1px;
 }
-.usernameOnline-3jr_0Y:after {
-    padding: 2px 3px 2px 3px;
-    background: #35974c;
-    color: #fff;
-    border-radius: 3px;
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
-    margin-left: 6px;
-    padding: 1px 2px;
-    text-transform: uppercase;
-    vertical-align: top;
-    content: "online";
-    margin-top:1px;
+.membersGroup-v9BXpm {
+    height: 20px;
 }
-.wordmark-2iDDfm:after {
-    padding: 2px 3px 2px 3px;
-    background: var(--main-color);
-    color: #fff;
-    border-radius: 3px;
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
-    margin-left: 6px;
-    padding: 1px 2px;
-    text-transform: uppercase;
-    vertical-align: top;
-    content: "Enhanced 1.7.5";
-}
-
 /* BLOCKED MESSAGES */
 .theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf,
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
@@ -158,12 +142,10 @@ a {
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
     background: var(--dark);
 }
-
 /* #################################### */
 .theme-dark .wrapper-1cBijl {
     background: var(--dark);
 }
-
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header,
 .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3 {
@@ -229,8 +211,8 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .typing-2GQL18 {
     top: -22px !important;
     border-radius: 6px;
+    background: transparent !important;
 }
-
 .guilds-wrapper,
 .headerTop-3C2Zn0,
 .theme-dark .quickMessage-1yeL4E,
@@ -452,7 +434,7 @@ a, .wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input{
 .ui-standard-sidebar-view .content-column.default {max-width:none;}
 
 /*  MESSAGES  */
-.channelTextArea-rNsIhG {margin: 5px 0 5px;}
+.channelTextArea-rNsIhG {margin: 5px 0 5px;padding-top: 3px !important;}
 .theme-dark .message-group:not(.has-divider) {border:none;}
 .message-group.compact.message-group {padding:0;}
 
