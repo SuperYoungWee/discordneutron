@@ -1,0 +1,144 @@
+@import url("https://rawgit.com/codedotspectra/enhanceddiscord/master/import/labels.css");
+/* thank you <3 */
+.ui-standard-sidebar-view .content-column.default::before {
+  display: block;
+  background-color: #1a3cb3;
+  content: "Thanks for downloading the Enhanced Discord theme !";
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #0d1d59;
+  border-radius: 6px;
+  color: #fff;
+}
+/* is typing */
+.typing-2GQL18 {
+    top: -22px !important;
+    border-radius: 6px;
+    background: transparent !important;
+}
+/* ? */
+.theme-dark .cardPrimaryOutline-29Ujqw,
+.theme-dark .cardPrimaryEditable-3KtE4g {border-color:var(--dark);}
+.ui-standard-sidebar-view .sidebar-region .sidebar {padding: 20px 6px 20px 6px;}
+.ui-standard-sidebar-view .sidebar-region {flex: 0 0 0px;}
+.ui-standard-sidebar-view .content-column.default {max-width:none;}
+/*  MESSAGES  */
+.channelTextArea-rNsIhG {margin: 5px 0 5px;padding-top: 3px !important;}
+.theme-dark .message-group:not(.has-divider) {border:none;}
+.message-group.compact.message-group {padding:0;}
+/* LINKS */
+a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {color: var(--links) !important;}
+a {
+    background: transparent !important;
+}
+.theme-dark .markup-2BOw-j a,
+.theme-dark .embedTitleLink-1Zla9e {
+    color: var(--links) !important;
+}
+/* Embeds */
+.theme-dark .embedInner-1-fpTo {
+    background-color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.9);
+}
+/*  SCROLLBARS  */
+::-webkit-scrollbar {border: none !important;width: 6px !important;}
+::-webkit-scrollbar-track {background: var(--grey);border: none !important;}
+::-webkit-scrollbar-track-piece {background: var(--grey) !important;border-radius: 0px !important;border: none !important;}
+::-webkit-scrollbar-thumb {background: var(--dark) !important;border-radius: 0px !important;border: none !important;}
+/* Invite links */
+.theme-dark .wrapper-35wsBm {
+    background: rgba(0,0,0,0.7);
+    border: 2px solid rgba(0,0,0,0.9);
+}
+.theme-dark .guildIconExpired-2Qcq05 {background: rgba(0,0,0,0.9);}
+.guildIconExpired-2Qcq05 {border-radius:10px;}
+
+/* Messages separator w/ date */
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div,
+.theme-dark .divider-3gKybi span {background: rgba(0,0,0,0.8);}
+.theme-dark .divider-3gKybi:before {background-color:transparent;}
+
+/* New messages notification */
+.newMessagesBar-mujexs {background-color: var(--main-color);}
+
+/* CODE */
+.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {background: transparent;}
+.theme-dark .markup-2BOw-j pre {
+    background: rgba(0,0,0,0.5);
+    border-color: #000;
+}
+.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {background: rgba(0,0,0,0.7);}
+
+/* MEMBERS */
+.theme-dark .membersGroup-v9BXpm {
+    text-align: left;
+    font-size: 14px;
+    line-height: 0px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    height: 20px;
+    color: #fff;
+    border-bottom: 1px solid var(--main-color);
+    width: 75%;
+}
+.content-OzHfo4 {
+    padding: 8px;
+}
+.member-3W1lQa {
+    height: 35px;
+    margin: 1px;
+}
+.membersGroup-v9BXpm {
+    height: 20px;
+}
+/* BLOCKED MESSAGES */
+.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf,
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
+    background: var(--light);
+    border-color: var(--dark);
+}
+.theme-dark .messageGroupBlocked-3wrQQX{
+    border-color: var(--dark);
+}
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover {
+    background: var(--dark);
+}
+/* SERVER ICONS */
+.guild-1EfMGQ,
+.iconSizeLarge-161qtT,
+.guild-1EfMGQ .guildInner-3DSoA4 a {
+    height: 35px;
+    width: 35px;
+}
+
+.guildsWrapper-5TJh6A {
+    width: 45px;
+}
+.guilds-1q_RqH {
+    padding: 5px 0 5px 5px;
+}
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+    background: transparent;
+}
+.dms-rcsEnV,
+.guildSeparator-1X4GQ1,
+.friendsOnline-_wi_fM {
+    display: none;
+}
+/*-----------*/
+.avatar-uploader-inner {background:transparent;}
+.create-guild-container.deprecated .action {
+    background: transparent;
+    border: none;
+}
+.carousel-JbsNzL,
+.paginationItem-3-MBTL:after,
+.selectedPage-2JQS2s {
+    background: rgba(0,0,0,0.5);
+}
+.theme-dark .header-1RC2Wb:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.7);
+}
