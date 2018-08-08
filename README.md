@@ -14,7 +14,7 @@ Suggestions and bugs repport are welcome
 Enhanced discord is a theme meant to improve your experience. Enhanced Discord is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
 
 #### Wallpaper version
-![Preview](https://i.imgur.com/JOoFRGB.png)
+![Preview](https://i.imgur.com/8NHBSPJ.jpg)
 
 #### Default version
 ![Preview](https://i.imgur.com/H2DXbDA.png)
