@@ -1,21 +1,21 @@
 # Discord Neutron
-As of 10.09.18 "Enhanced discord" is "Discord Neutron". Thanks to `intrnl` who found a name conflict with a Discord client mod named  Enhanced Discord
+As of 10.09.18 "Enhanced discord" is "Discord Neutron". Thanks to ![intrnl](https://github.com/intrnl) who found a name conflict with a Discord client mod named  Enhanced Discord
 
 help me to make this theme even better! Add me on Discord!
-## Spectra#7698
 Suggestions and bugs repport are welcome
+#### Spectra#7698
 
 # What is Discord Neutron ?
-Discord Neutron is a theme meant to improve your experience. Enhanced Discord is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
+Discord Neutron is a theme meant to improve your experience. Discord Neutron is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
 
 #### Wallpaper version
-!Neutron Wallpaper](https://i.imgur.com/zFes4Fn.jpg)
+![Neutron Wallpaper](https://i.imgur.com/zFes4Fn.jpg)
 
 #### Default version
 ![Neutron](https://i.imgur.com/6t4dBbv.png)
 
 # Installation
-Simply dowload the color variant you like and put it in your Better Discord Themes folder
+Simply dowload the theme version you like and put it in your Better Discord Themes folder
 
 `Discord -> Settings -> Themes -> Open themes folder`
 
@@ -23,6 +23,7 @@ Files must be saved as `.theme.css`
 
 ### Customize
 use the custom css editor in Better discord
+you can find color variants in the "other colors" folder, just copy the hex codes
 
     .app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-3jAH9b, .topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 {
         background-image: url("YOUR IMAGE URL HERE") !important;
