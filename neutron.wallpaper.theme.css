@@ -182,7 +182,10 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     color: #fff;
     border-bottom: none;
     width: 75%;
-    border-bottom: 1px solid #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--main-color), rgba(0, 0, 0, 0)) 100% 0;
+    border-top: none;
 }
 .content-OzHfo4 {
     padding: 8px;
@@ -211,7 +214,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     padding: 5px 0 5px 10px;
 }
 .friendsOnline-_wi_fM {
-  margin-left: -10px;
+  margin-left: -7px;
 }
 .theme-dark .guildsAdd-21_IdK {
     background-color: transparent;
@@ -691,3 +694,16 @@ a,
 ::-webkit-scrollbar-track {background: rgba(0,0,0,0.3);border: none !important;}
 ::-webkit-scrollbar-track-piece {background: rgba(0,0,0,0.3) !important;border-radius: 0px !important;border: none !important;}
 ::-webkit-scrollbar-thumb {background: rgba(0,0,0,0.7) !important;border-radius: 0px !important;border: none !important;}
+/*=============*/
+.guildsError-3cFMtY {
+    height: 35px;
+    width: 35px;
+    line-height: 30px;
+    color: #fff !important;
+}
+.noIcon-1a_FrS.iconSizeLarge-161qtT {
+    line-height: 35px;
+}
+.guildSeparator-1X4GQ1 {
+    display: none;
+}
