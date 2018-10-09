@@ -1,35 +1,33 @@
-//META{"name":"Enhanced Discord Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"2.1"}*//{}
+//META{"name":"Discord Neutron Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"3.1"}*//{}
 /*
-███████╗███╗   ██╗██╗  ██╗ █████╗ ███╗   ██╗ ██████╗███████╗██████╗     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
-██╔════╝████╗  ██║██║  ██║██╔══██╗████╗  ██║██╔════╝██╔════╝██╔══██╗    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
-█████╗  ██╔██╗ ██║███████║███████║██╔██╗ ██║██║     █████╗  ██║  ██║    ██║  ██║██║███████╗██║     ██║   ██║██████╔╝██║  ██║
-██╔══╝  ██║╚██╗██║██╔══██║██╔══██║██║╚██╗██║██║     ██╔══╝  ██║  ██║    ██║  ██║██║╚════██║██║     ██║   ██║██╔══██╗██║  ██║
-███████╗██║ ╚████║██║  ██║██║  ██║██║ ╚████║╚██████╗███████╗██████╔╝    ██████╔╝██║███████║╚██████╗╚██████╔╝██║  ██║██████╔╝
-╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝╚═════╝     ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝
-
+███╗   ██╗███████╗██╗   ██╗████████╗██████╗  ██████╗ ███╗   ██╗
+████╗  ██║██╔════╝██║   ██║╚══██╔══╝██╔══██╗██╔═══██╗████╗  ██║
+██╔██╗ ██║█████╗  ██║   ██║   ██║   ██████╔╝██║   ██║██╔██╗ ██║
+██║╚██╗██║██╔══╝  ██║   ██║   ██║   ██╔══██╗██║   ██║██║╚██╗██║
+██║ ╚████║███████╗╚██████╔╝   ██║   ██║  ██║╚██████╔╝██║ ╚████║
+╚═╝  ╚═══╝╚══════╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 ╦ ╦┌─┐┬  ┬  ┌─┐┌─┐┌─┐┌─┐┬─┐  ┬  ┬┌─┐┬─┐┌─┐┬┌─┐┌┐┌
 ║║║├─┤│  │  ├─┘├─┤├─┘├┤ ├┬┘  └┐┌┘├┤ ├┬┘└─┐││ ││││
 ╚╩╝┴ ┴┴─┘┴─┘┴  ┴ ┴┴  └─┘┴└─   └┘ └─┘┴└─└─┘┴└─┘┘└┘
 
 ========================================
-#  Enhanced Discord Theme              #
+#  Discord Neutron                     #
 #  By Spectra#7698                     #
-#  Version: 2.1                        #
+#  Version: 3.1!                       #
 ========================================
 ###################################################################################################*/
 .app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-3jAH9b,.topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 {
-  background-image: url("https://i.imgur.com/QS5Kxm5.jpg") !important;
+  background-image: url("https://img4.goodfon.com/original/2560x1440/8/ed/pikseli-tumannost-zelenyi.jpg") !important;
 }
 
 :root {
-  --main-color: #e66f00;
-  --main-darker: #ff1200;
+  --main-color: #0099ff;
+  --main-darker: #007acc;
   --dark: #16181d;
   --grey: #21252b;
   --light: #282c34;
   --links: #4d79ff;
 }
-
 /*###################################################################################################*/
 /*======================================*/
 /*======================================*/
@@ -113,7 +111,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     margin-top: 5px;
 }
 /*  SCROLLBARS  */
-::-webkit-scrollbar {border: none !important;width: 6px !important;}
+::-webkit-scrollbar {border: none !important;width: 8px !important;}
 ::-webkit-scrollbar-track {background: var(--grey);border: none !important;}
 ::-webkit-scrollbar-track-piece {background: var(--grey) !important;border-radius: 0px !important;border: none !important;}
 ::-webkit-scrollbar-thumb {background: var(--dark) !important;border-radius: 0px !important;border: none !important;}
@@ -175,13 +173,19 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
   top: -4px;
 }
 .guildsWrapper-5TJh6A {
-    width: 50px;
+    width: 55px;
 }
 .guilds-1q_RqH {
     padding: 5px 0 5px 10px;
 }
 .friendsOnline-_wi_fM {
   margin-left: -10px;
+}
+.theme-dark .guildsAdd-21_IdK {
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
 }
 /* private msg icon */
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
@@ -269,56 +273,25 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     text-transform: uppercase;
     vertical-align: top;
 }
-.usernameOffline-3VSVLk:after {
-    padding: 2px 3px 2px 3px;
-    background: #f04747;
-    color: #fff;
-    border-radius: 3px;
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
-    margin-left: 6px;
-    padding: 1px 2px;
-    margin-top:1px;
-    text-transform: uppercase;
-    vertical-align: top;
-    content: "offline";
-}
-.usernameOnline-3jr_0Y:after {
-    padding: 2px 3px 2px 3px;
-    background: #35974c;
-    color: #fff;
-    border-radius: 3px;
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
-    margin-left: 6px;
-    padding: 1px 2px;
-    text-transform: uppercase;
-    vertical-align: top;
-    content: "online";
-    margin-top:1px;
-}
 .wordmark-2iDDfm:after {
-    padding: 2px 3px 2px 3px;
-    background: #00cc66;
-    color: #fff;
+    padding: 0;
+    background-color: transparent;
+    background: -webkit-linear-gradient(#00cc66, #0099ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: lime;
     font-weight: bold;
-    border-radius: 3px;
+    border-radius: 0px;
     display: inline-block;
     flex-shrink: 0;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 13px;
+    font-size: 13px;
+    font-weight: 1000;
+    line-height: 14px;
     margin-left: 6px;
     padding: 1px 2px;
     text-transform: uppercase;
     vertical-align: top;
-    content: "Neutron 3.0";
+    content: "Neutron 3.1";
 }
 /* Search Box */
 .theme-dark .search-results-wrap .channel-separator .channel-name,
@@ -557,9 +530,9 @@ a,
 }
 .chat .new-messages-bar {background-color: var(--main-color);}
 .newMessagesBar-mujexs:hover {background-color: var(--main-darker);} {background-color: var(--main-darker);}
-.appMount-3VJmYg,
-.typeWindows-1za-n7 {background: #fff;}
-.wordmark-2iDDfm path {fill: #000;}
+.appMount-3VJmYg, .typeWindows-1za-n7,
+.typeWindows-1za-n7 {background: var(--dark);}
+.wordmark-2iDDfm path {fill: #fff;}
 .guilds-wrapper .guilds-add {
     background: var(--dark);
     border: 2px dashed var(--light);
@@ -575,7 +548,6 @@ a,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .expireText-34b09Y {
     color: #fff !important;
 }
-.theme-dark .guildsAdd-21_IdK,
 .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked,
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
     background: var(--dark);
