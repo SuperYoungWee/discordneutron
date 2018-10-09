@@ -9,17 +9,17 @@ Suggestions and bugs repport are welcome
 Discord Neutron is a theme meant to improve your experience. Discord Neutron is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
 
 #### Wallpaper version
-![Neutron Wallpaper](https://i.imgur.com/zFes4Fn.jpg)
+![Neutron Wallpaper](https://i.imgur.com/bNxlaKt.jpg)
 
 #### Default version
-![Neutron](https://i.imgur.com/6t4dBbv.png)
+![Neutron](https://i.imgur.com/Ic5kRLh.jpg)
 
 # Installation
-Simply dowload the theme version you like and put it in your Better Discord Themes folder
-
-`Discord -> Settings -> Themes -> Open themes folder`
-
-Files must be saved as `.theme.css`
+1. Download your favorite Neutron version
+2. open the themes folder `Discord -> Settings -> Themes -> Open themes folder`
+3. Place your theme in this folder (must be named like this : `name.theme.css`)
+4. Reload Discord using `Ctrl+R` (or `Command+R`)
+5. Go to `Discord -> Settings -> Themes` and turn on your theme
 
 ### Customize
 use the custom css editor in Better discord
@@ -47,20 +47,16 @@ you can find color variants in the "other colors" folder, just copy the hex code
       */
     }
 
-### Don't like the white window bar ?
-use the custom css editor in Better discord
-   
-    .appMount-3VJmYg, .typeWindows-1za-n7,
-    .typeWindows-1za-n7 {background: var(--dark);}
-    .wordmark-2iDDfm path {fill: #fff;}
-
-### Don't like the labels ?
-delete the labels section from the theme
-
  ### Don't like the small server icons ?
  delete the server icons section from the theme
 
 # Changelog
+
+### Version 3.1
+* Scrollbars are now 8px wide
+* removed online/offline labels
+* added Neutron logo in the window bar
+* window bar is now black by default
 
 ### Version 3.0
 * Enhanced Discord becomes Discord neutron
