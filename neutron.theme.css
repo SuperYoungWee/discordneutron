@@ -1,4 +1,4 @@
-//META{"name":"Discord Neutron","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"3.1"}*//{}
+//META{"name":"Neutron","description":"A better looking Discord! Up to date and easy to customize","author":"Spectra#7698","version":"3.1"}*//{}
 /*
 ███╗   ██╗███████╗██╗   ██╗████████╗██████╗  ██████╗ ███╗   ██╗
 ████╗  ██║██╔════╝██║   ██║╚══██╔══╝██╔══██╗██╔═══██╗████╗  ██║
@@ -38,6 +38,36 @@
 .ui-standard-sidebar-view .sidebar-region .sidebar {padding: 20px 6px 20px 6px;}
 .ui-standard-sidebar-view .sidebar-region {flex: 0 0 0px;}
 .ui-standard-sidebar-view .content-column.default {max-width:none;}
+.autocomplete-1vrmpx,
+.autocomplete-i9yVHs,
+.da-autocomplete,
+.autocompleteInner-zh20B_,
+.autocompleteInner-zh20B_, .autocompleteRowVertical-q1K4ky{
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.theme-dark .selectorSelected-1_M1WV {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.uploadModal-2ifh8j,
+.uploadModal-2ifh8j .footer-3mqk7D {
+    background-color: var(--dark);
+}
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+    background-color: transparent;
+}
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary {
+    color: #fff !important;
+}
+.theme-dark .note-3kmerW textarea {
+    background-color: rgba(0,0,0,0.5);
+}
+.bodyTitle-Y0qMQz {
+    color: #fff;
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: var(--dark);
+}
 /*  MESSAGES  */
 .channelTextArea-rNsIhG {margin: 5px 0 5px;padding-top: 3px !important;}
 .theme-dark .message-group:not(.has-divider) {border:none;}
