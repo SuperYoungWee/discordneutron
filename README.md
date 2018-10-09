@@ -1,23 +1,18 @@
-# Enhanced Discord
+# Discord Neutron
+As of 10.09.18 "Enhanced discord" is "Discord Neutron". Thanks to `intrnl` who found a name conflict with a Discord client mod named  Enhanced Discord
 
-Add me on Discord!
-
-### Spectra#7698
-
-help me to make this theme even better!
+help me to make this theme even better! Add me on Discord!
+## Spectra#7698
 Suggestions and bugs repport are welcome
 
-## People who helped will receive a Helper badge
-![Preview](https://i.imgur.com/GNAiiRA.jpg)
-
-# What is Enhanced discord ?
-Enhanced discord is a theme meant to improve your experience. Enhanced Discord is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
+# What is Discord Neutron ?
+Discord Neutron is a theme meant to improve your experience. Enhanced Discord is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
 
 #### Wallpaper version
-![Preview](https://i.imgur.com/8NHBSPJ.jpg)
+!Neutron Wallpaper](https://i.imgur.com/zFes4Fn.jpg)
 
 #### Default version
-![Preview](https://i.imgur.com/H2DXbDA.png)
+![Neutron](https://i.imgur.com/6t4dBbv.png)
 
 # Installation
 Simply dowload the color variant you like and put it in your Better Discord Themes folder
@@ -65,6 +60,14 @@ delete the labels section from the theme
  delete the server icons section from the theme
 
 # Changelog
+
+### Version 3.0
+* Enhanced Discord becomes Discord neutron
+* Fixed private messages notifications icon position
+* Fixed private messages notifications icon color and image
+* Fixed new messages notifications color
+* Fixed user popup
+* Fixed messages separators
 
 ### Version 2.0
 * Added helper badge
