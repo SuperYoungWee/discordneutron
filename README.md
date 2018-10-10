@@ -52,6 +52,18 @@ you can find color variants in the "other colors" folder, just copy the hex code
 
 # Changelog
 
+### Version 4.0
+* Customized private vocal calls
+* Fixed "show more messages" button
+* Added custom image in user popup
+* Added easy customization for image in user popup
+* Added custom Discord icon (private messages button)
+* Added easy customization for Discord icon
+* Customized BetterDiscord Custom Css colors;
+* Fixed Server settings popup
+* Fixed "attach file" popup colors
+* Fixed mentions colors
+
 ### Version 3.1
 * Scrollbars are now 8px wide
 * removed online/offline labels
