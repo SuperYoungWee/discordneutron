@@ -53,6 +53,11 @@ you can find color variants in the "other colors" folder, just copy the hex code
 
 # Changelog
 
+### Version 4.5 
+* Fixed user pp in dm notifications
+* Fixed some elements that where not transparent
+* Added a website for theme previews
+
 ### Version 4.0
 * Customized private vocal calls
 * Fixed "show more messages" button
