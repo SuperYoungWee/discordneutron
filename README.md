@@ -63,6 +63,7 @@ you can find color variants in the "other colors" folder, just copy the hex code
 * Fixed Server settings popup
 * Fixed "attach file" popup colors
 * Fixed mentions colors
+* Added gradient colors to customization
 
 ### Version 3.1
 * Scrollbars are now 8px wide
