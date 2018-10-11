@@ -1,4 +1,4 @@
-//META{"name":"Neutron_Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"3.1"}*//{}
+//META{"name":"Neutron_Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"4.0"}*//{}
 /*
 ███╗   ██╗███████╗██╗   ██╗████████╗██████╗  ██████╗ ███╗   ██╗
 ████╗  ██║██╔════╝██║   ██║╚══██╔══╝██╔══██╗██╔═══██╗████╗  ██║
@@ -13,13 +13,19 @@
 ========================================
 #  Discord Neutron                     #
 #  By Spectra#7698                     #
-#  Version: 3.1!                       #
+#  Version: 4.0!                       #
 ========================================
 ###################################################################################################*/
+
+/* Wallpaper */
 .app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-3jAH9b,.topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 {
   background-image: url("https://img4.goodfon.com/original/2560x1440/8/ed/pikseli-tumannost-zelenyi.jpg") !important;
 }
-
+/* Home button image */
+.guildInner-3DSoA4 a svg {
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/942811960705812957/75D848602D1EA7CFA8B7EA0AB3B77D9D69BD75FB/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C268%3A268&composite-to=*,*%7C268%3A268&background-color=black");
+}
+/* Colors | Use HEX or RGB*/
 :root {
   --main-color: #0099ff;
   --main-darker: #007acc;
@@ -27,6 +33,8 @@
   --grey: #21252b;
   --light: #282c34;
   --links: #4d79ff;
+  --gradient1: #00cc66;
+  --gradient2: #0099ff;
 }
 /*###################################################################################################*/
 /*======================================*/
@@ -97,6 +105,13 @@
 }
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
     background-color: var(--dark);
+}
+.guildInner-3DSoA4 a svg g {
+    display: none;
+}
+.guildInner-3DSoA4 a svg {
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*  MESSAGES  */
 .channelTextArea-rNsIhG {margin: 5px 0 5px;padding-top: 3px !important;}
@@ -311,7 +326,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .wordmark-2iDDfm:after {
     padding: 0;
     background-color: transparent;
-    background: -webkit-linear-gradient(#00cc66, #0099ff);
+    background: -webkit-linear-gradient(var(--gradient1), var(--gradient2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: lime;
@@ -326,7 +341,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     padding: 1px 2px;
     text-transform: uppercase;
     vertical-align: top;
-    content: "Neutron 3.1";
+    content: "Neutron 4.0";
 }
 /* Search Box */
 .theme-dark .search-results-wrap .channel-separator .channel-name,
@@ -373,7 +388,22 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .footer-1fjuF6 {
     background-color: var(--grey);
  }
-/*======================================*/
+ /*  Custom CSS  */
+ .ace_scroller {
+     background: var(--grey);
+ }
+ .ace-monokai .ace_gutter {
+     color: #fff;
+     background: var(--dark) !important;
+ }
+ .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+     color: #fff;
+     background: var(--dark);
+     box-shadow: 0 1px 0 0 var(--dark) inset;
+ }
+ .ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
+     background: var(--main-color);
+ }
 /*======================================*/
 /*======================================*/
 /*======================================*/
@@ -602,7 +632,6 @@ a,
 .barFill-23-gu-,
 .bd-pfbtn,
 .theme-dark .topSectionNormal-2-vo2m,
-.content-20Aix8:hover,
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
 .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4,
 .topSectionPlaying-1J5E4n,
@@ -618,7 +647,13 @@ a,
 .theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
     background-color: var(--dark);
 }
-
+.theme-dark .hasMore-3e72_v button {
+    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.hasMore-3e72_v button {
+    color: var(--main-color);
+}
 .theme-dark .auditLog-3jNbM6 {
     border-color: var(--dark);
 }
@@ -695,6 +730,14 @@ a,
 ::-webkit-scrollbar-track-piece {background: rgba(0,0,0,0.3) !important;border-radius: 0px !important;border: none !important;}
 ::-webkit-scrollbar-thumb {background: rgba(0,0,0,0.7) !important;border-radius: 0px !important;border: none !important;}
 /*=============*/
+/* Loading screen */
+.container-16j22k {
+  background-color: rgba(0,0,0,0.9);
+}
+/*============*/
+.theme-dark .noChannel-Z1DQK7 {
+    background: transparent;
+}
 .guildsError-3cFMtY {
     height: 35px;
     width: 35px;
@@ -706,4 +749,53 @@ a,
 }
 .guildSeparator-1X4GQ1 {
     display: none;
+}
+.activity-11LB_k {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://i.makeagif.com/media/4-06-2015/Lf1kvf.gif");
+}
+
+.theme-dark .wrapper-29NfPK {
+    background: transparent;
+}
+.video-1FfuMD {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+    background-color: rgba(0,0,0,0.4);
+    border-color: rgba(0,0,0,0.2);
+}
+
+.resultsGroup-r_nuzN {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.theme-dark .option-96V44q.selected-rZcOL- {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.container-2Thooq {
+    background-color: rgba(0,0,0,0.25) !important;
+}
+
+.content-20Aix8:hover {
+    background-color: rgba(0,0,0,0.5) !important;
+    background: -webkit-linear-gradient(var(--gradient1), var(--gradient2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: lime;
+}
+.nameSelectedText-sp_EUw::before {
+    -webkit-text-fill-color: #fff;
+}
+
+.barFill-23-gu-,
+.side-8zPYf6 .itemSelected-1qLhcL,
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: var(--main-color);
+}
+.theme-dark .menu-Sp6bN1 {
+    background-color: var(--dark) !important;
 }
