@@ -8,11 +8,14 @@ Suggestions and bugs repport are welcome
 # What is Discord Neutron ?
 Discord Neutron is a theme meant to improve your experience. Discord Neutron is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
 
+## Halloween version
+![Neutron Halloween](https://i.imgur.com/JQoPihL.jpg)
+
 #### Wallpaper version
-![Neutron Wallpaper](https://i.imgur.com/bNxlaKt.jpg)
+![Neutron Wallpaper](https://i.imgur.com/mxtRFp1.jpg)
 
 #### Default version
-![Neutron](https://i.imgur.com/Ic5kRLh.jpg)
+![Neutron](https://i.imgur.com/OE3wWCO.jpg)
 
 # Installation
 1. Download your favorite Neutron version
