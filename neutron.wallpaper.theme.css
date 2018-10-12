@@ -1,4 +1,4 @@
-//META{"name":"Neutron_Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"4.0"}*//{}
+//META{"name":"Neutron_Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"4.5"}*//{}
 /*
 ███╗   ██╗███████╗██╗   ██╗████████╗██████╗  ██████╗ ███╗   ██╗
 ████╗  ██║██╔════╝██║   ██║╚══██╔══╝██╔══██╗██╔═══██╗████╗  ██║
@@ -13,17 +13,17 @@
 ========================================
 #  Discord Neutron                     #
 #  By Spectra#7698                     #
-#  Version: 4.0!                       #
+#  Version: 4.5!                       #
 ========================================
 ###################################################################################################*/
 
 /* Wallpaper */
-.app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-3jAH9b,.topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 {
+.layer-3QrUeG {
   background-image: url("https://img4.goodfon.com/original/2560x1440/8/ed/pikseli-tumannost-zelenyi.jpg") !important;
 }
 /* Home button image */
 .guildInner-3DSoA4 a svg {
-    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/942811960705812957/75D848602D1EA7CFA8B7EA0AB3B77D9D69BD75FB/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C268%3A268&composite-to=*,*%7C268%3A268&background-color=black");
+    background-image: url("https://payload141.cargocollective.com/1/10/342029/5124828/Beautiful-Icosahedron.gif");
 }
 /* Colors | Use HEX or RGB*/
 :root {
@@ -70,6 +70,30 @@
     background: transparent !important;
 }
 /* ? */
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a,
+.channel-2QD9_O.selected-1HYmZZ a {
+    background-color: rgba(0,0,0,0.5);
+}
+.article-3kb3qm {
+    background: transparent;
+}
+.need-help-modal.form.deprecated .header {
+    background-color: var(--dark);
+}
+.need-help-modal.form.deprecated .form-inner {
+    background-color: var(--grey);
+}
+.need-help-modal.form.deprecated .header input[type=text] {
+    background-color: var(--light);
+    color: #fff;
+    border: 2px solid var(--light);
+    box-shadow: none;
+}
+.need-help-modal.form.deprecated .footer {
+    background-color: var(--light);
+    border-color: var(--grey);
+    color: #fff;
+}
 .search-bar {background: transparent;}
 .theme-dark .cardPrimaryOutline-29Ujqw,
 .theme-dark .cardPrimaryEditable-3KtE4g {border-color:var(--dark);}
@@ -112,6 +136,11 @@
 .guildInner-3DSoA4 a svg {
     background-repeat: no-repeat;
     background-size: cover;
+}
+.layer-3QrUeG {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 /*  MESSAGES  */
 .channelTextArea-rNsIhG {margin: 5px 0 5px;padding-top: 3px !important;}
@@ -341,7 +370,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     padding: 1px 2px;
     text-transform: uppercase;
     vertical-align: top;
-    content: "Neutron 4.0";
+    content: "Neutron 4.5";
 }
 /* Search Box */
 .theme-dark .search-results-wrap .channel-separator .channel-name,
@@ -407,10 +436,6 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 /*======================================*/
 /*======================================*/
 /*======================================*/
-.app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-3jAH9b,.topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 {
-  background-size: cover !important;
-  background-position:center!important
-}
 .theme-dark .inner-zqa7da,
 .theme-dark .search .search-bar,
 .contentSelectedText-3wUhMi,
@@ -419,7 +444,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .theme-dark .member-3W1lQa:hover .content-OzHfo4 {
     background: rgba(0,0,0,0.6);
 }
-a,
+
 .theme-dark .ui-standard-sidebar-view {
     background: transparent !important;
 }
@@ -524,9 +549,6 @@ a,
 #bd-settingspane-container .scroller-wrap .scroller,
 .bda-slist li,
 .uploadArea-3QgLtW,
-.theme-dark .layer-3QrUeG,
-.theme-dark .layers-3iHuyZ,
-.container-2lgZY8,
 .theme-dark .body-SKIE6r,
 .theme-dark .changeDetails-bk98pu,
 .theme-dark .cardPrimaryOutline-29Ujqw,
