@@ -29,7 +29,7 @@ use the custom css editor in Better discord
 you can find color variants in the "other colors" folder, just copy the hex codes
 
     /* Wallpaper */
-    .app, .callout-backdrop, .userPopout-11hFKo::before,.topSectionStreaming-3rIBIm, .topSectionPlaying-3jAH9b,.topSectionSpotify-3744IX, .topSectionNormal-2LlRG1 {
+    .layer-3QrUeG {
           background-image: url("IMAGE URL") !important;
     }
     /* Home button image */
