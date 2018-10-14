@@ -1,5 +1,5 @@
 # Discord Neutron
-As of 10.09.18 "Enhanced discord" is "Discord Neutron". Thanks to ![intrnl](https://github.com/intrnl) who found a name conflict with a Discord client mod named  Enhanced Discord
+As of 10.14.2018 the default version will not be updated. check the Customization section if you want the default version
 
 help me to make this theme even better! Add me on Discord!
 Suggestions and bugs repport are welcome
@@ -8,14 +8,15 @@ Suggestions and bugs repport are welcome
 # What is Discord Neutron ?
 Discord Neutron is a theme meant to improve your experience. Discord Neutron is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
 
+#### Wallpaper version
+![Neutron Wallpaper](https://i.imgur.com/hAuRPcU.jpg)
+
+#### Default version
+![Neutron](https://i.imgur.com/sdgy0uS.png)
+
 ## Halloween version
 ![Neutron Halloween](https://i.imgur.com/JQoPihL.jpg)
 
-#### Wallpaper version
-![Neutron Wallpaper](https://i.imgur.com/mxtRFp1.jpg)
-
-#### Default version
-![Neutron](https://i.imgur.com/OE3wWCO.jpg)
 
 # Installation
 1. Download your favorite Neutron version
@@ -25,6 +26,8 @@ Discord Neutron is a theme meant to improve your experience. Discord Neutron is 
 5. Go to `Discord -> Settings -> Themes` and turn on your theme
 
 ### Customize
+* if you want the default version copy this in the custom css editor : `.layer-3QrUeG {background-image: url("") !important;}`
+
 use the custom css editor in Better discord
 you can find color variants in the "other colors" folder, just copy the hex codes
 
