@@ -1,4 +1,4 @@
-//META{"name":"Neutron_Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"4.6","source":"https://github.com/codedotspectra/discordneutron","website":"https://codedotspectra.github.io/neutron/"}*//{}
+//META{"name":"Neutron_Wallpaper","description":"A better looking Discord! Up to date and easy to customize, now with wallpaper feature!","author":"Spectra#7698","version":"4.8","source":"https://github.com/codedotspectra/discordneutron","website":"https://codedotspectra.github.io/neutron/"}*//{}
 /*
 ███╗   ██╗███████╗██╗   ██╗████████╗██████╗  ██████╗ ███╗   ██╗
 ████╗  ██║██╔════╝██║   ██║╚══██╔══╝██╔══██╗██╔═══██╗████╗  ██║
@@ -9,27 +9,37 @@
 ========================================
 #  Discord Neutron                     #
 #  By Spectra#7698                     #
-#  Version: 4.6!                       #
 ========================================
+###################################################################################################
+This theme is meant to be used with the dark version of discord
 ###################################################################################################*/
-
-/* Wallpaper */
-.layer-3QrUeG {
-  background-image: url("https://img3.goodfon.com/original/4324x2346/1/1e/the-crysis-2-art-poezd-vagony.jpg") !important;
-}
-/* Home button image */
-.guildInner-3DSoA4 a svg {
-    background-image: url("data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDUyOC4xMiA1MjkuODIiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj4NCiAgPHBhdGggZD0iTTI2OS44IDEyMi4zN2MxNi43MyA3MC4zOC0zNS4yMiAxNjQuMTgtMTQ3LjQ3IDE0OS4xbC0xLjY0LS4yNEExNDUuNzkgMTQ1Ljc5IDAgMSAwIDI2OS44IDEyMi4zN3oiIGZpbGw9IiNmZmYiLz4NCiAgPGNpcmNsZSBjeD0iMTQ3LjQ2IiBjeT0iMTQ3LjQ2IiByPSIxMDIuMjIiIGZpbGw9IiM3Mjg5ZGEiLz4NCiAgPHBhdGggZD0iTTQyNCAxMTUuNjNhMTAwLjU1IDEwMC41NSAwIDAgMC01Ni44NyAxNy41NmMxNy4zNyAxMy4wOSA5My4wNSA3Ny45MyA1Ny41NyAxOTAuMjEgNTYuMTMtLjM5IDEwMS41Mi00Ni43NCAxMDEuNTItMTAzLjg4LS4wNC01Ny4zOC00NS44MS0xMDMuODktMTAyLjIyLTEwMy44OXpNMzAyLjA4IDQ4NmExMDAuNjQgMTAwLjY0IDAgMCAwIDE3Ljc4LTU2LjhjLTIwLjY0IDYuODgtMTE3IDMyLjQ1LTE4OS4zMS02MC40NS0zMS41MiA0Ni40NS0xOS4wOCAxMTAuMTIgMjggMTQyLjUzIDQ3LjI1IDMyLjUxIDExMS41MSAyMS4xOSAxNDMuNTMtMjUuMjh6IiBmaWxsPSIjNzI4OWRhIi8+DQogIDxwYXRoIGQ9Ik00ODQuOCAzMzAuNDFhMjMwIDIzMCAwIDAgMS0xNTQuNTEgMTU0LjQyIDEyNi41MSAxMjYuNTEgMCAwIDEtMzguNDkgNDMuMzRjMTI0LjUtMTIuNjMgMjIzLjUtMTExLjUxIDIzNi4zMi0yMzUuOTVhMTI2LjE5IDEyNi4xOSAwIDAgMS00My4zMiAzOC4xOXpNMjEyIDQxLjI5YTIyOS45NCAyMjkuOTQgMCAwIDEgMjA2LjI3IDUyLjc4YzIuNDQtLjE0IDQuODktLjIzIDcuMzYtLjIzQTEyNS4zOCAxMjUuMzggMCAwIDEgNDc1LjEgMTA0YTI2NSAyNjUgMCAwIDAtMzIwLTgwLjI1QTEyNSAxMjUgMCAwIDEgMjEyIDQxLjI5ek05Mi4xNiA0MjUuNjNjMC0zLjA2LjE1LTYuMDkuMzctOS4wOWEyMjkuODEgMjI5LjgxIDAgMCAxLTUyLTIwMS4zMSAxMjQuOTQgMTI0Ljk0IDAgMCAxLTE4LjQtNTYuNjUgMjY1IDI2NSAwIDAgMCA3OS40NCAzMTQuNzEgMTI0LjU1IDEyNC41NSAwIDAgMS05LjQxLTQ3LjY2eiIgZmlsbD0iI2ZmZiIvPg0KPC9zdmc+DQo=");
-}
-/* Colors | Use HEX or RGB*/
 :root {
-  --main-color: #7289da;
-  --main-darker: #4a67cf;
+  /* Background image */
+  --bgImage: url("https://img3.goodfon.com/original/4324x2346/1/1e/the-crysis-2-art-poezd-vagony.jpg");
+
+  /* Main theme color */
+  --mainColor: #7289da;
+  --mainDarker: #4a67cf;
+
+  /* theme colors */
   --dark: #16181d;
-  --grey: #21252b;
+  --medium: #21252b;
   --light: #282c34;
+
+  /* Text colors */
   --links: #da5858;
-  --textColor: #fff;
+  --ChatTextColor: #fff;
+  --memberGroupColor: #fff;
+  --UserPlayingTextColor: #a6a6a6;
+  --ChannelsSelectedTextColor: #fff;
+  --ChannelsDefaultTextColor: #8c8c8c;
+  --ChannelsDarkTextColor: #666666;
+
+  /* Wallpaper brightness | change this value from 0 to 1 */
+  --brightness: 0.2;
+
+  /* Home button */
+  --HomeButtonImg: url("data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDUyOC4xMiA1MjkuODIiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj4NCiAgPHBhdGggZD0iTTI2OS44IDEyMi4zN2MxNi43MyA3MC4zOC0zNS4yMiAxNjQuMTgtMTQ3LjQ3IDE0OS4xbC0xLjY0LS4yNEExNDUuNzkgMTQ1Ljc5IDAgMSAwIDI2OS44IDEyMi4zN3oiIGZpbGw9IiNmZmYiLz4NCiAgPGNpcmNsZSBjeD0iMTQ3LjQ2IiBjeT0iMTQ3LjQ2IiByPSIxMDIuMjIiIGZpbGw9IiM3Mjg5ZGEiLz4NCiAgPHBhdGggZD0iTTQyNCAxMTUuNjNhMTAwLjU1IDEwMC41NSAwIDAgMC01Ni44NyAxNy41NmMxNy4zNyAxMy4wOSA5My4wNSA3Ny45MyA1Ny41NyAxOTAuMjEgNTYuMTMtLjM5IDEwMS41Mi00Ni43NCAxMDEuNTItMTAzLjg4LS4wNC01Ny4zOC00NS44MS0xMDMuODktMTAyLjIyLTEwMy44OXpNMzAyLjA4IDQ4NmExMDAuNjQgMTAwLjY0IDAgMCAwIDE3Ljc4LTU2LjhjLTIwLjY0IDYuODgtMTE3IDMyLjQ1LTE4OS4zMS02MC40NS0zMS41MiA0Ni40NS0xOS4wOCAxMTAuMTIgMjggMTQyLjUzIDQ3LjI1IDMyLjUxIDExMS41MSAyMS4xOSAxNDMuNTMtMjUuMjh6IiBmaWxsPSIjNzI4OWRhIi8+DQogIDxwYXRoIGQ9Ik00ODQuOCAzMzAuNDFhMjMwIDIzMCAwIDAgMS0xNTQuNTEgMTU0LjQyIDEyNi41MSAxMjYuNTEgMCAwIDEtMzguNDkgNDMuMzRjMTI0LjUtMTIuNjMgMjIzLjUtMTExLjUxIDIzNi4zMi0yMzUuOTVhMTI2LjE5IDEyNi4xOSAwIDAgMS00My4zMiAzOC4xOXpNMjEyIDQxLjI5YTIyOS45NCAyMjkuOTQgMCAwIDEgMjA2LjI3IDUyLjc4YzIuNDQtLjE0IDQuODktLjIzIDcuMzYtLjIzQTEyNS4zOCAxMjUuMzggMCAwIDEgNDc1LjEgMTA0YTI2NSAyNjUgMCAwIDAtMzIwLTgwLjI1QTEyNSAxMjUgMCAwIDEgMjEyIDQxLjI5ek05Mi4xNiA0MjUuNjNjMC0zLjA2LjE1LTYuMDkuMzctOS4wOWEyMjkuODEgMjI5LjgxIDAgMCAxLTUyLTIwMS4zMSAxMjQuOTQgMTI0Ljk0IDAgMCAxLTE4LjQtNTYuNjUgMjY1IDI2NSAwIDAgMCA3OS40NCAzMTQuNzEgMTI0LjU1IDEyNC41NSAwIDAgMS05LjQxLTQ3LjY2eiIgZmlsbD0iI2ZmZiIvPg0KPC9zdmc+DQo=");
 }
 /*###################################################################################################*/
 /*======================================*/
@@ -37,10 +47,6 @@
 /*               CORE                   */
 /*======================================*/
 /*======================================*/
-/* text color */
-/** {
-  color: var(--textColor);
-}*/
 /* text channels icon */
 .marginReset-3RfdVe svg[class*="Text"] {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJ0aW55IiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEwMCAxMjUiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTI1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4gIDxnPiAgICA8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzIsNjYuOTh2MTcuOTkyYzAsMi40MzQsMS44NzUsMi4wOSwyLjUsMS41OUMzNS4yNyw4NS45NDcsNTYsNjYuOTgsNTYsNjYuOThoMjZjNC45NDEsMCw2LTEuMDU5LDYtNS45OTggICBWMTkuNzE5Qzg4LDEzLjkyLDg3LDEzLDgyLDEzSDE4Yy00LjkyLDAtNiwxLTYsNS45OTh2NDEuOTg0YzAsNC44NTcsMC44NCw1Ljk5OCw2LDUuOTk4SDMyeiBNMzYuNTIsNDMuOTg4ICAgYzAsMy4wMzktMi40OCw1LjUxOC01LjUyLDUuNTE4cy01LjUyLTIuNDc5LTUuNTItNS41MThzMi40OC01LjUyLDUuNTItNS41MlMzNi41Miw0MC45NTMsMzYuNTIsNDMuOTg4eiBNNTQuNTIsNDMuOTg4ICAgYzAsMy4wMzktMi40OCw1LjUxOC01LjUyLDUuNTE4cy01LjUyLTIuNDc5LTUuNTItNS41MThzMi40OC01LjUyLDUuNTItNS41MlM1NC41Miw0MC45NTMsNTQuNTIsNDMuOTg4eiBNNzIuNTIsNDMuOTg4ICAgYzAsMy4wMzktMi40OCw1LjUxOC01LjUyLDUuNTE4cy01LjUyLTIuNDc5LTUuNTItNS41MThzMi40OC01LjUyLDUuNTItNS41MlM3Mi41Miw0MC45NTMsNzIuNTIsNDMuOTg4eiIvPiAgPC9nPjwvc3ZnPg==);
@@ -49,18 +55,54 @@
   background-size: cover;
   margin-top: 6px;
 }
-.marginReset-3RfdVe svg[class*="Text"] path {
-  display: none;
+.marginReset-3RfdVe svg[class*="Text"] path {display: none;}
+/* text colors */
+.theme-dark .membersGroup-v9BXpm {
+  color: var(--memberGroupColor) !important;
+}
+.theme-dark .embedAuthorName-3mnTWj, .theme-dark .embedFieldName-NFrena, .theme-dark .embedTitle-3OXDkz,
+.theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl,
+.theme-dark .markup-2BOw-j {
+  color: var(--ChatTextColor) !important;
+}
+.channels-Ie2l6A {
+  color: var(--ChannelsTextColor) !important;
+}
+.activityText-sLG0UL {
+  color: var(--UserPlayingTextColor) !important;
+}
+.name-3M0b8v,
+.nameHoveredVoice-YJ1Vfd,
+.nameHoveredText-1u031y,
+.nameConnectedText-3CzNQn,
+.nameConnectedVoice-MHUX5F,
+.nameSelectedText-sp_EUw,
+.nameSelectedVoice-1qSph5,
+.nameUnreadText-DfkrI4,
+.nameUnreadVoice-EVo-wI {
+  color: var(--ChannelsSelectedTextColor) !important;
+}
+.name-2WpE7M,
+.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s {
+  color: var(--ChannelsDefaultTextColor) !important;
+}
+.content-20Aix8:hover .nameDefaultText-24KCy5, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1,
+.nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ {
+  color: var(--ChannelsDarkTextColor) !important;
+}
+/* less bright backgorund */
+.container-2lgZY8, .spacer-29U_x8 {
+  background: rgba(0,0,0,var(--brightness)) !important;
 }
 /* emotes menu */
 .bda-dark #bda-qem {
-  background: var(--grey);
+  background: var(--medium);
   border-bottom: 1px solid var(--dark) !important;
 }
 .bda-dark #bda-qem button {
   box-shadow: none;
   border-color: var(--light);
-  background: var(--grey);
+  background: var(--medium);
 }
 .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container,
 .bda-dark #bda-qem button.active {
@@ -101,7 +143,7 @@
     background-color: rgba(0,0,0,0.5);
 }
 .need-help-modal.form.deprecated .form-inner {
-    background-color: var(--grey);
+    background-color: var(--medium);
 }
 .need-help-modal.form.deprecated .header input[type=text] {
     background-color: var(--light);
@@ -153,11 +195,15 @@
 .guildInner-3DSoA4 a:hover {
   transform: rotate(30deg);
 }
+.guildInner-3DSoA4 a svg {
+    background-image: var(--HomeButtonImg);
+}
 /* wallpaper */
 .layer-3QrUeG {
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  background-image: var(--bgImage) !important;
 }
 /*  MESSAGES  */
 .channelTextArea-rNsIhG {margin: 5px 0 5px;padding-top: 3px !important;}
@@ -184,7 +230,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .plugin-settings button {
     padding: 5px;
     border-radius: 4px;
-    background-color: var(--main-color);
+    background-color: var(--mainColor);
     color: #fff;
     margin-left: 5px;
 }
@@ -192,7 +238,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     margin-left: 0px;
 }
 .bda-slist .bda-footer button {
-    background-color: var(--main-color);
+    background-color: var(--mainColor);
 }
 .plugin-settings input {
     padding: 5px;
@@ -215,7 +261,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .theme-dark .divider-3gKybi:before {background-color:transparent;}
 
 /* New messages notification */
-.newMessagesBar-mujexs {background-color: var(--main-color);}
+.newMessagesBar-mujexs {background-color: var(--mainColor);}
 .dismiss-SCAH9H {
   height: 20px;
 }
@@ -246,7 +292,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     border-bottom: none;
     border-width: 2px;
     border-style: solid;
-    border-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--main-color), rgba(0, 0, 0, 0)) 100% 0;
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--mainColor), rgba(0, 0, 0, 0)) 100% 0;
     border-top: none;
 }
 .content-OzHfo4 {
@@ -277,13 +323,13 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     color: #fff;
 }
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
-  color: var(--main-color);
+  color: var(--mainColor);
 }
 .iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB {
-  color: var(--main-darker);
+  color: var(--mainDarker);
 }
 .colorSelectedText-1y4Wvs {
-  color: var(--main-color);
+  color: var(--mainColor);
 }
 .content-20Aix8 .name-3M0b8v {
   transition: all .2s ease;
@@ -335,7 +381,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 }
 /* private msg icon */
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
-  background: var(--grey);
+  background: var(--medium);
   background-color: transparent;
 }
 .guild-1EfMGQ .avatar-small {
@@ -409,7 +455,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .searchPopout-1vUlP3.da-searchPopout .resultsGroup-r_nuzN.da-resultsGroup .option-96V44q.selected-rZcOL-:hover,
 .searchPopout-1vUlP3.da-searchPopout .resultsGroup-r_nuzN.da-resultsGroup .option-96V44q.searchOption-zQ-1l6.selected-rZcOL-:hover,
 .theme-dark .search-results-wrap {
-    background: var(--grey);
+    background: var(--medium);
 }
 .search-results-wrap .action-buttons {
     background-color: var(--dark);
@@ -444,7 +490,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 }
 .body-3iLsc4,
 .footer-1fjuF6 {
-    background-color: var(--grey);
+    background-color: var(--medium);
 }
 .root-SR8cQa {
   background-color: var(--dark);
@@ -454,7 +500,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 }
 /*  Custom CSS  */
 .ace_scroller {
-     background: var(--grey);
+     background: var(--medium);
 }
 .ace-monokai .ace_gutter {
      color: #fff;
@@ -466,7 +512,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
      box-shadow: 0 1px 0 0 var(--dark) inset;
 }
 .ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
-     background: var(--main-color);
+     background: var(--mainColor);
 }
 /*======================================*/
 /*======================================*/
@@ -684,8 +730,8 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 #friends .friends-table {
     margin-top: 0;
 }
-.chat .new-messages-bar {background-color: var(--main-color);}
-.newMessagesBar-mujexs:hover {background-color: var(--main-darker);} {background-color: var(--main-darker);}
+.chat .new-messages-bar {background-color: var(--mainColor);}
+.newMessagesBar-mujexs:hover {background-color: var(--mainDarker);} {background-color: var(--mainDarker);}
 .appMount-3VJmYg, .typeWindows-1za-n7,
 .typeWindows-1za-n7 {background: var(--dark);}
 .wordmark-2iDDfm path {fill: #fff;}
@@ -698,7 +744,6 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     background: transparent;
     border: none;
 }
-.content-20Aix8:hover .nameDefaultText-24KCy5, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-actions,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-header header,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .blurb-zsamaY,
@@ -712,11 +757,11 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 }
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary,
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
-    background-color: var(--main-color);
+    background-color: var(--mainColor);
 }
 .theme-dark #friends .tab-bar .tab-bar-item.selected{
     background-color: #fff;
-    color: var(--main-color);
+    color: var(--mainColor);
 }
 .activity-11LB_k,
 .lookFilled-1Gx00P.colorBrand-3pXr91,
@@ -733,7 +778,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
 #bd-settings-sidebar .ui-tab-bar-item.selected {
-    background: var(--main-color) !important;
+    background: var(--mainColor) !important;
 }
 .theme-dark .headerExpanded-CUEwZ5,
 .theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
@@ -744,7 +789,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     border: 1px solid rgba(0,0,0,0.5);
 }
 .hasMore-3e72_v button {
-    color: var(--main-color);
+    color: var(--mainColor);
 }
 .theme-dark .auditLog-3jNbM6 {
     border-color: var(--dark);
@@ -752,33 +797,33 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .avatar-uploader-inner {background:transparent;}
 .theme-dark .card-FDVird:before,
 .theme-dark .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"] {
-  background: var(--main-color) !important;
-  border-color: var(--main-color) !important;
+  background: var(--mainColor) !important;
+  border-color: var(--mainColor) !important;
 }
 .theme-dark .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"] .checked-3_4uQ9 {
-    border-color: var(--main-color) !important;
-    color: var(--main-color) !important;
+    border-color: var(--mainColor) !important;
+    color: var(--mainColor) !important;
 }
 .theme-dark .cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"] .checked-3_4uQ9 polyline {
-    stroke: var(--main-color) !important;
+    stroke: var(--mainColor) !important;
 }
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .checkbox .checkbox-inner input:checked+span,
 .checkbox .checkbox-inner input[type=checkbox]:checked+span,
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
-    background: var(--main-color);
-    border-color: var(--main-color);
+    background: var(--mainColor);
+    border-color: var(--mainColor);
 }
 .theme-dark .input-cIJ7To.focused-1mmYsc,
 .theme-dark .input-cIJ7To:focus {
-    border-color: var(--main-color) !important;
+    border-color: var(--mainColor) !important;
 }
 .clipboardInputInner-1EXMA3 {
     background: var(--light);
-    border-color: var(--main-color);
+    border-color: var(--mainColor);
 }
 .clipboardInputInner-1EXMA3 button:first-of-type:before {
-    background: -webkit-gradient(linear,left top,right top,from(hsla(0,0%,100%,0)),to(var(--grey)));
-    background: linear-gradient(90deg,hsla(0,0%,100%,0),var(--grey));
+    background: -webkit-gradient(linear,left top,right top,from(hsla(0,0%,100%,0)),to(var(--medium)));
+    background: linear-gradient(90deg,hsla(0,0%,100%,0),var(--medium));
 }
 .need-help-modal.deprecated .footer {border-top:1px solid var(--light);}
 .need-help-modal.deprecated .header input[type=text] {
@@ -801,7 +846,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     border: 1px solid var(--dark);
 }
 .form.deprecated .form-header,
-.form.deprecated .form-inner{color: var(--main-color);}
+.form.deprecated .form-inner{color: var(--mainColor);}
 .container-1UB9sr {border-bottom:none;}
 .clipboardInputInner-1EXMA3,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input{
@@ -817,7 +862,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .barFill-23-gu-,
 .side-8zPYf6 .itemSelected-1qLhcL,
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
-    background-color: var(--main-color);
+    background-color: var(--mainColor);
 }
 .theme-dark .menu-Sp6bN1 {
     background-color: var(--dark) !important;
