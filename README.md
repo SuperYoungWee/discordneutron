@@ -31,25 +31,34 @@ Discord Neutron is a theme meant to improve your experience. Discord Neutron is 
 use the custom css editor in Better discord
 you can find color variants in the "other colors" folder, just copy the hex codes
 
-    /* Wallpaper */
-    .layer-3QrUeG {
-          background-image: url("IMAGE URL") !important;
-    }
-    /* Home button image */
-    .guildInner-3DSoA4 a svg {
-        background-image: url("IMAGE URL");
-    }
-    /* Colors | Use HEX or RGB*/
     :root {
-      --main-color: #0099ff;
-      --main-darker: #007acc;
-      --dark: #16181d;
-      --grey: #21252b;
-      --light: #282c34;
-      --links: #4d79ff;
-      --gradient1: #00cc66;
-      --gradient2: #0099ff;
-    }
+       /* Background image */
+       --bgImage: url("IMAGE URL HERE");
+
+       /* Main theme color */
+       --mainColor: #7289da;
+       --mainDarker: #4a67cf;
+
+       /* theme colors */
+       --dark: #16181d;
+       --medium: #21252b;
+       --light: #282c34;
+
+       /* Text colors */
+       --links: #da5858;
+       --ChatTextColor: #fff;
+       --memberGroupColor: #fff;
+       --UserPlayingTextColor: #a6a6a6;
+       --ChannelsSelectedTextColor: #fff;
+       --ChannelsDefaultTextColor: #8c8c8c;
+       --ChannelsDarkTextColor: #666666;
+
+       /* Wallpaper brightness | change this value from 0 to 1 */
+       --brightness: 0.2;
+
+       /* Home button */
+       --HomeButtonImg: url("IMAGE URL HERE");
+     }
 
  ### Don't like the small server icons ?
  delete the server icons section from the theme
