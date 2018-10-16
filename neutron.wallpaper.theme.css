@@ -36,7 +36,7 @@ This theme is meant to be used with the dark version of discord
   --ChannelsDarkTextColor: #666666;
 
   /* Wallpaper brightness | change this value from 0 to 1 */
-  --brightness: 0.2;
+  --brightness: 0.4;
 
   /* Home button */
   --HomeButtonImg: url("data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDUyOC4xMiA1MjkuODIiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj4NCiAgPHBhdGggZD0iTTI2OS44IDEyMi4zN2MxNi43MyA3MC4zOC0zNS4yMiAxNjQuMTgtMTQ3LjQ3IDE0OS4xbC0xLjY0LS4yNEExNDUuNzkgMTQ1Ljc5IDAgMSAwIDI2OS44IDEyMi4zN3oiIGZpbGw9IiNmZmYiLz4NCiAgPGNpcmNsZSBjeD0iMTQ3LjQ2IiBjeT0iMTQ3LjQ2IiByPSIxMDIuMjIiIGZpbGw9IiM3Mjg5ZGEiLz4NCiAgPHBhdGggZD0iTTQyNCAxMTUuNjNhMTAwLjU1IDEwMC41NSAwIDAgMC01Ni44NyAxNy41NmMxNy4zNyAxMy4wOSA5My4wNSA3Ny45MyA1Ny41NyAxOTAuMjEgNTYuMTMtLjM5IDEwMS41Mi00Ni43NCAxMDEuNTItMTAzLjg4LS4wNC01Ny4zOC00NS44MS0xMDMuODktMTAyLjIyLTEwMy44OXpNMzAyLjA4IDQ4NmExMDAuNjQgMTAwLjY0IDAgMCAwIDE3Ljc4LTU2LjhjLTIwLjY0IDYuODgtMTE3IDMyLjQ1LTE4OS4zMS02MC40NS0zMS41MiA0Ni40NS0xOS4wOCAxMTAuMTIgMjggMTQyLjUzIDQ3LjI1IDMyLjUxIDExMS41MSAyMS4xOSAxNDMuNTMtMjUuMjh6IiBmaWxsPSIjNzI4OWRhIi8+DQogIDxwYXRoIGQ9Ik00ODQuOCAzMzAuNDFhMjMwIDIzMCAwIDAgMS0xNTQuNTEgMTU0LjQyIDEyNi41MSAxMjYuNTEgMCAwIDEtMzguNDkgNDMuMzRjMTI0LjUtMTIuNjMgMjIzLjUtMTExLjUxIDIzNi4zMi0yMzUuOTVhMTI2LjE5IDEyNi4xOSAwIDAgMS00My4zMiAzOC4xOXpNMjEyIDQxLjI5YTIyOS45NCAyMjkuOTQgMCAwIDEgMjA2LjI3IDUyLjc4YzIuNDQtLjE0IDQuODktLjIzIDcuMzYtLjIzQTEyNS4zOCAxMjUuMzggMCAwIDEgNDc1LjEgMTA0YTI2NSAyNjUgMCAwIDAtMzIwLTgwLjI1QTEyNSAxMjUgMCAwIDEgMjEyIDQxLjI5ek05Mi4xNiA0MjUuNjNjMC0zLjA2LjE1LTYuMDkuMzctOS4wOWEyMjkuODEgMjI5LjgxIDAgMCAxLTUyLTIwMS4zMSAxMjQuOTQgMTI0Ljk0IDAgMCAxLTE4LjQtNTYuNjUgMjY1IDI2NSAwIDAgMCA3OS40NCAzMTQuNzEgMTI0LjU1IDEyNC41NSAwIDAgMS05LjQxLTQ3LjY2eiIgZmlsbD0iI2ZmZiIvPg0KPC9zdmc+DQo=");
@@ -628,12 +628,25 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
     background: transparent !important;
 }
 .theme-dark .quickswitcher-3JagVE,
+.theme-dark .tileWrapper-2khh-w,
 .theme-dark .messagesPopoutWrap-1MQ1bW {
     background: rgba(0,0,0,0.9);
+}
+.theme-dark .mediaDescription-31GsyQ {
+  background: linear-gradient(180deg,transparent,rgba(0,0,0,.75) 45%, rgba(0,0,0,0.9));
 }
 .theme-dark .input-2VB9rf,
 .theme-dark .resultFocused-3aIoYe{
     background-color: rgba(0,0,0,0.9);
+}
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,transparent,rgba(0,0,0,0.5)),-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0.5)),color-stop(40%,transparent),color-stop(60%,transparent),to(rgba(0,0,0,0.5))),-webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,0.5)),color-stop(25%,transparent));
+    background: radial-gradient(ellipse at top,transparent,rgba(0,0,0,0.5)),linear-gradient(90deg,rgba(0,0,0,0.5) 0,transparent 40%,transparent 60%,rgba(0,0,0,0.5)),linear-gradient(0deg,rgba(0,0,0,0.5) 0,transparent 25%);
+}
+0.27df17a….css:458
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,transparent,rgba(0,0,0,0.5)),-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0.5)),color-stop(40%,transparent),color-stop(60%,transparent),to(rgba(0,0,0,0.5))),-webkit-gradient(linear,left bottom,left top,color-stop(10%,rgba(0,0,0,0.5)),color-stop(70%,transparent));
+    background: radial-gradient(ellipse at top,transparent,rgba(0,0,0,0.5)),linear-gradient(90deg,rgba(0,0,0,0.5) 0,transparent 40%,transparent 60%,rgba(0,0,0,0.5)),linear-gradient(0deg,rgba(0,0,0,0.5) 10%,transparent 70%);
 }
 .theme-dark .messageGroupWrapper-o-Zw7G {
     background: rgba(0,0,0,0.2);
@@ -678,6 +691,8 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .need-help-modal.deprecated .footer,
 .news-2GDtLJ,
 .container-2lgZY8,
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .applicationStore-1pNvnv,
 .need-help-modal.deprecated .header input[type=text] {
   background: rgba(0,0,0,0.25);
 }
@@ -714,6 +729,9 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .paginationItem-3-MBTL:after,
 .selectedPage-2JQS2s {
     background: rgba(0,0,0,0.5);
+}
+.theme-dark .libraryFilterInput-3JzqZD {
+    background-color: rgba(0,0,0,0.5);
 }
 .theme-dark .header-1RC2Wb:hover {
     cursor: pointer;
