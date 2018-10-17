@@ -1,9 +1,7 @@
 # Discord Neutron
-As of 10.14.2018 the default version will not be updated. check the Customization section if you want the default version
-
-help me to make this theme even better! Add me on Discord!
+help me to make this theme even better! Join the discord server!
 Suggestions and bugs repport are welcome
-#### Spectra#7698
+![JOIN US](https://discord.gg/PEw2Yxa)
 
 # What is Discord Neutron ?
 Discord Neutron is a theme meant to improve your experience. Discord Neutron is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
@@ -13,10 +11,6 @@ Discord Neutron is a theme meant to improve your experience. Discord Neutron is 
 
 #### Default version
 ![Neutron](https://i.imgur.com/sdgy0uS.png)
-
-## Halloween version
-![Neutron Halloween](https://i.imgur.com/JQoPihL.jpg)
-
 
 # Installation
 1. Download your favorite Neutron version
@@ -65,7 +59,7 @@ you can find color variants in the "other colors" folder, just copy the hex code
 
 # Changelog
 
-### Version 4.5 
+### Version 4.5
 * Fixed user pp in dm notifications
 * Fixed some elements that where not transparent
 * Added a website for theme previews
@@ -146,17 +140,17 @@ quick fix for the last discord update
 * Added style for scrollbar
 * Added new color variants
   * Dark Matter
-  
+
   ![darkmatter](https://preview.ibb.co/mcmuvT/darkmatter.jpg)
-  
+
   * Bloody
-  
+
   ![bloody](https://preview.ibb.co/c8fb9o/bloody.jpg)
-  
+
   * Marine
-  
+
   ![marine](https://preview.ibb.co/jNv9Uo/marine.jpg)
-  
+
   * Solar
-  
+
   ![solar](https://preview.ibb.co/cAyUUo/solar.jpg)
