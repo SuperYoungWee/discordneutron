@@ -47,6 +47,27 @@ This theme is meant to be used with the dark version of discord
 /*               CORE                   */
 /*======================================*/
 /*======================================*/
+/* audit log */
+.theme-dark .headerClickable-2IVFo9,
+.theme-dark .headerExpanded-CUEwZ5,
+.theme-dark .headerDefault-1wrJcN {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  border-color: rgba(0, 0, 0, 0.9) !important;
+}
+.guildSettingsAuditLogsUserFilterPopout-3Jg5NE {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+/* Game library */
+.theme-dark .header-39GIC8 {
+  background: rgba(0,0,0,0.5);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  background-color: rgba(0,0,0,0.7);
+}
+.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover, .theme-light .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
+  background-color: var(--mainColor);
+}
+.headerCellContent-1pLtOr {color:#fff;}
 /* text channels icon */
 .marginReset-3RfdVe svg[class*="Text"] {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJ0aW55IiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEwMCAxMjUiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTI1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4gIDxnPiAgICA8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzIsNjYuOTh2MTcuOTkyYzAsMi40MzQsMS44NzUsMi4wOSwyLjUsMS41OUMzNS4yNyw4NS45NDcsNTYsNjYuOTgsNTYsNjYuOThoMjZjNC45NDEsMCw2LTEuMDU5LDYtNS45OTggICBWMTkuNzE5Qzg4LDEzLjkyLDg3LDEzLDgyLDEzSDE4Yy00LjkyLDAtNiwxLTYsNS45OTh2NDEuOTg0YzAsNC44NTcsMC44NCw1Ljk5OCw2LDUuOTk4SDMyeiBNMzYuNTIsNDMuOTg4ICAgYzAsMy4wMzktMi40OCw1LjUxOC01LjUyLDUuNTE4cy01LjUyLTIuNDc5LTUuNTItNS41MThzMi40OC01LjUyLDUuNTItNS41MlMzNi41Miw0MC45NTMsMzYuNTIsNDMuOTg4eiBNNTQuNTIsNDMuOTg4ICAgYzAsMy4wMzktMi40OCw1LjUxOC01LjUyLDUuNTE4cy01LjUyLTIuNDc5LTUuNTItNS41MThzMi40OC01LjUyLDUuNTItNS41MlM1NC41Miw0MC45NTMsNTQuNTIsNDMuOTg4eiBNNzIuNTIsNDMuOTg4ICAgYzAsMy4wMzktMi40OCw1LjUxOC01LjUyLDUuNTE4cy01LjUyLTIuNDc5LTUuNTItNS41MThzMi40OC01LjUyLDUuNTItNS41MlM3Mi41Miw0MC45NTMsNzIuNTIsNDMuOTg4eiIvPiAgPC9nPjwvc3ZnPg==);
@@ -197,6 +218,9 @@ This theme is meant to be used with the dark version of discord
 }
 .guildInner-3DSoA4 a svg {
     background-image: var(--HomeButtonImg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
 }
 /* wallpaper */
 .layer-3QrUeG {
@@ -314,9 +338,16 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .container-16j22k {background-color: rgba(0,0,0,0.9);}
 .theme-dark .wrapper-29NfPK {background: transparent;}
 .video-1FfuMD {background-color: rgba(0,0,0,0.3);}
-/*.container-16j22k video.ready-36e6Vk {
+.container-16j22k video.ready-36e6Vk source {
+  display: none;
+}
+.container-16j22k video.ready-36e6Vk {
   background-image: url("https://fuyu.red/images/icons/atom.gif");
-}*/
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: padding-box;
+}
 /* channels */
 .content-20Aix8:hover {
     background-color: rgba(0,0,0,0.5) !important;
@@ -570,6 +601,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .autocomplete-i9yVHs,
 .da-autocomplete,
 .autocompleteInner-zh20B_,
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action,
 .autocompleteInner-zh20B_, .autocompleteRowVertical-q1K4ky{
     background-color: rgba(0,0,0,0.5) !important;
 }
@@ -591,6 +623,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .theme-dark .guildsWrapper-5TJh6A {
     background: rgba(0,0,0, 0.4) !important;
     border: none !important;
+    border-radius: 0;
 }
 .theme-dark #friends,
 .theme-dark .headerBar-UHpsPw, #friends .friends-table,
@@ -798,10 +831,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 #bd-settings-sidebar .ui-tab-bar-item.selected {
     background: var(--mainColor) !important;
 }
-.theme-dark .headerExpanded-CUEwZ5,
-.theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN {
-    background-color: var(--dark);
-}
+
 .theme-dark .hasMore-3e72_v button {
     background: rgba(0,0,0,0.5);
     border: 1px solid rgba(0,0,0,0.5);
