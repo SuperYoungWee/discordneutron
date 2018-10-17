@@ -13,7 +13,7 @@
 ###################################################################################################
 This theme is meant to be used with the dark version of discord
 ###################################################################################################*/
-@import "";
+@import "https://raw.githubusercontent.com/codedotspectra/discordneutron/master/importCSS/core.css";
 /*###################################################################################################*/
 :root {
   /* Background image */
