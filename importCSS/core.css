@@ -11,6 +11,23 @@ This theme is meant to be used with the dark version of discord
 /*======================================*/
 /*               CORE                   */
 /*======================================*/
+:root {
+  --bgImage: url("https://i.imgur.com/8GNiJCd.png");
+  --mainColor: #3366ff;
+  --mainDarker: #0039e6;
+  --dark: #16181d;
+  --medium: #21252b;
+  --light: #282c34;
+  --links: #da5858;
+  --ChatTextColor: #fff;
+  --memberGroupColor: #fff;
+  --UserPlayingTextColor: #a6a6a6;
+  --ChannelsSelectedTextColor: #fff;
+  --ChannelsDefaultTextColor: #8c8c8c;
+  --ChannelsDarkTextColor: #666666;
+  --brightness: 0.3;
+  --HomeButtonImg: url("https://i.imgur.com/c7OJDHl.jpg");
+}
 /* audit log */
 .theme-dark .headerClickable-2IVFo9,
 .theme-dark .headerExpanded-CUEwZ5,
