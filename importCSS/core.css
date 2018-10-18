@@ -92,6 +92,12 @@ This theme is meant to be used with the dark version of discord
 .nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ {
   color: var(--ChannelsDarkTextColor) !important;
 }
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+  border-left: 4px solid var(--mainColor);
+}
+.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+  padding-left: 7px;
+}
 /* less bright backgorund */
 .container-2lgZY8, .spacer-29U_x8 {
   background: rgba(0,0,0,var(--brightness)) !important;
@@ -787,6 +793,9 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .blurb-zsamaY,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .expireText-34b09Y {
     color: #fff !important;
+}
+.theme-dark .headerBar-UHpsPw, #friends .friends-table {
+  background-color: rgba(0,0,0,0.25) !important;
 }
 .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked,
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
