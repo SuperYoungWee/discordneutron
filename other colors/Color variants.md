@@ -1,3 +1,4 @@
+# for versions 4.0 or older
 
 ## Steam colors
 `:root {
