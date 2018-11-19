@@ -25,7 +25,14 @@ This theme is meant to be used with the dark version of discord
   --brightness: 0.3;
   --HomeButtonImg: url("https://i.imgur.com/c7OJDHl.jpg");
 }
-/* Seerver settings */
+/* Better Discord V2 *//*
+.bd-sidebarView .bd-sidebarRegion,
+.bd-sidebarView .bd-contentRegion {background-color: rgba(0,0,0,.95);}
+.bd-sidebarView .bd-contentRegion {box-shadow: none;}
+.bd-settingsButton {width: 55px;background: rgba(0,0,0,.6);height: 40px;}
+body:not(.bd-hideButton) [class*='guildsWrapper-'] {padding-top: 40px !important;}*/
+
+/* Server settings */
 .standardSidebarView-3F1I7i, .standardSidebarView-3F1I7i {
   background-color: rgba(0,0,0,0.5);
 }
@@ -352,6 +359,29 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 ::-webkit-scrollbar-track {background: rgba(0,0,0,0.3);border: none !important;}
 ::-webkit-scrollbar-track-piece {background: rgba(0,0,0,0.3) !important;border-radius: 0px !important;border: none !important;}
 ::-webkit-scrollbar-thumb {background: rgba(0,0,0,0.7) !important;border-radius: 0px !important;border: none !important;}
+/* web scrollbar */
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap.polyfill .scrollbar, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap.polyfill .scrollbar::after,
+.scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL, .scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL .pad-29zQak, .theme-dark .scrollerWrap-2lJEkd .scrollbar-2rkZSL, .theme-dark .scrollerWrap-2lJEkd .scrollbar-2rkZSL .pad-29zQak, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scrollbar-2rkZSL .pad-29zQak,
+.scroller-wrap.polyfill .scrollbar, .scroller-wrap.polyfill .scrollbar::after {
+  background-color: var(--medium);
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap.polyfill .scrollbar .track {
+  background-color: var(--dark);
+  border: none;
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap.polyfill .scrollbar .thumb::after,
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap.polyfill .scrollbar .thumb {
+  background-color: var(--dark);
+}
+.scrollbar-2rkZSL,
+.scroller-wrap .scrollbar {
+  width: 15px;
+}
+.scroller-wrap .scrollbar .track {border-radius: 0;}
+.scroller-wrap.polyfill .scrollbar .track {
+  border: none;
+  background-color: rgba(0,0,0,.5);
+}
 /* Loading screen */
 .container-16j22k {background-color: rgba(0,0,0,0.9);}
 .theme-dark .wrapper-29NfPK {background: transparent;}
