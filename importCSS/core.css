@@ -8,9 +8,6 @@ If you enjoy using the theme, help spread the word!
 
 This theme is meant to be used with the dark version of discord
 ###################################################################################################*/
-/*======================================*/
-/*               CORE                   */
-/*======================================*/
 :root {
   --bgImage: url("https://i.imgur.com/8GNiJCd.png");
   --mainColor: #3366ff;
@@ -28,6 +25,10 @@ This theme is meant to be used with the dark version of discord
   --brightness: 0.3;
   --HomeButtonImg: url("https://i.imgur.com/c7OJDHl.jpg");
 }
+/* Seerver settings */
+.standardSidebarView-3F1I7i, .standardSidebarView-3F1I7i {
+  background-color: rgba(0,0,0,0.5);
+}
 /* audit log */
 .theme-dark .headerClickable-2IVFo9,
 .theme-dark .headerExpanded-CUEwZ5,
@@ -38,6 +39,7 @@ This theme is meant to be used with the dark version of discord
 .guildSettingsAuditLogsUserFilterPopout-3Jg5NE {
   background-color: rgba(0, 0, 0, 0.7) !important;
 }
+
 /* Game library */
 .theme-dark .header-39GIC8 {
   background: rgba(0,0,0,0.5);
@@ -197,12 +199,6 @@ This theme is meant to be used with the dark version of discord
 .guildInner-3DSoA4[style*="background-color"] {
   background-color: transparent !important;
 }
-.guildInner-3DSoA4 a {
-  transition: all .2s ease;
-}
-.guildInner-3DSoA4 a:hover {
-  transform: rotate(30deg);
-}
 .guildInner-3DSoA4 a svg {
     background-image: var(--HomeButtonImg);
     background-position: center !important;
@@ -216,17 +212,6 @@ This theme is meant to be used with the dark version of discord
   background-size: cover !important;
   background-image: var(--bgImage) !important;
 
-}
-@keyframes backgroundZoom {
-  0% {
-    background-size: 100% 100%;
-  }
-  50% {
-    background-size: 110% 110%;
-  }
-  100% {
-    background-size: 100% 100%;
-  }
 }
 /*  MESSAGES  */
 .channelTextArea-rNsIhG {margin: 5px 0 5px;padding-top: 3px !important;}
@@ -292,6 +277,7 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
   height: 20px !important;
   line-height: 20px;
   border-radius: 0 !important;
+  background-color: var(--mainColor) !important;
 }
 /* CODE */
 .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {background: transparent;}
@@ -303,21 +289,37 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 /* MEMBERS */
 .theme-dark .membersGroup-v9BXpm {
     text-align: center;
-    font-size: 14px;
-    line-height: 0px;
+    font-size: 12px;
+    line-height: 3px;
     padding-bottom: 10px;
     padding-left: 0;
     margin-left: 10px;
     margin-bottom: 5px;
     height: 20px;
     color: #fff;
-    width: 75%;
+    width: 95%;
     border-bottom: none;
     border-width: 2px;
     border-style: solid;
     border-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--mainColor), rgba(0, 0, 0, 0)) 100% 0;
     border-top: none;
 }
+.theme-dark .member-3W1lQa.popout-open {
+  border-bottom: 1px solid var(--mainColor);
+}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4 > .memberInner-2CPc3V {
+  padding-left: 15px;
+}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
+.theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+  background-color: rgba(0,0,0,0.75);
+}
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 > .memberInner-2CPc3V {
+  padding-left: 15px;
+}
+.memberInner-2CPc3V {
+   transition: all .2s ease;
+ }
 .content-OzHfo4 {
     padding: 8px;
 }
@@ -842,14 +844,16 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .checkbox-2tyjJg {
   border-radius: 6px;
 }
-.activity-11LB_k,
+.activityUserPopout-2yItg2 .da-activityUserPopout .activity-11LB_k .da-activity .activity-11LB_k,
+.headerPlaying-j0WQBV {
+  background-color: var(--mainColor) !important;
+  background-image: linear-gradient(to bottom left, var(--mainColor), var(--mainDarker)) !important;
+}
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .side-8zPYf6 .itemSelected-1qLhcL,
 .barFill-23-gu-,
 .bd-pfbtn,
 .theme-dark .topSectionNormal-2-vo2m,
-.theme-dark .member-3W1lQa.popout-open .content-OzHfo4,
-.theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4,
 .topSectionPlaying-1J5E4n,
 .ui-standard-sidebar-view #editor-detached button,
 .wrapper-O5i5-0 .instantInviteModal-3vhcvC .copy-3nFbq8,
@@ -859,7 +863,6 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 #bd-settings-sidebar .ui-tab-bar-item.selected {
     background: var(--mainColor) !important;
 }
-
 .theme-dark .hasMore-3e72_v button {
     background: rgba(0,0,0,0.5);
     border: 1px solid rgba(0,0,0,0.5);
@@ -940,9 +943,13 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     background-color: var(--mainColor);
 }
-.theme-dark .menu-Sp6bN1 {
+.theme-dark .menu-Sp6bN1,
+.checkboxEnabled-CtinEn .checkbox-2tyjJg .da-checkboxEnabled .da-checkbox {
     background-color: var(--dark) !important;
 }
 .inner-1JeGVc {
   background-color: rgba(0,0,0,0.2);
+}
+.switch-3wwwcV .da-switch {
+  border-radius: 6px !important;
 }
