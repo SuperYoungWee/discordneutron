@@ -1,4 +1,4 @@
-//META{"name":"Neutron","description":"A fully customizable and compact theme, now sugar free!","author":"Spectra#7698","version":"4.8","source":"https://github.com/codedotspectra/discordneutron","website":"https://codedotspectra.github.io/neutron/"}*//{}
+//META{"name":"Neutron","description":"A fully customizable and compact theme, now sugar free!","author":"Spectra#7698","version":"5.0","source":"https://github.com/codedotspectra/discordneutron","website":"https://codedotspectra.github.io/neutron/"}*//{}
 /*
 ███╗   ██╗███████╗██╗   ██╗████████╗██████╗  ██████╗ ███╗   ██╗
 ████╗  ██║██╔════╝██║   ██║╚══██╔══╝██╔══██╗██╔═══██╗████╗  ██║
@@ -20,11 +20,11 @@ This theme is meant to be used with the dark version of discord
 /*###################################################################################################*/
 :root {
   /* Background image */
-  --bgImage: url("https://i.imgur.com/8GNiJCd.png");
+  --bgImage: url("https://i.imgur.com/b2wTshd.png");
 
   /* Main theme color */
-  --mainColor: #3366ff;
-  --mainDarker: #0039e6;
+  --mainColor: #ff5241;
+  --mainDarker: #ff2143;
 
   /* theme colors */
   --dark: #16181d;
@@ -32,7 +32,7 @@ This theme is meant to be used with the dark version of discord
   --light: #282c34;
 
   /* Text colors */
-  --links: #da5858;
+  --links: #ffad33;
   --ChatTextColor: #fff;
   --memberGroupColor: #fff;
   --UserPlayingTextColor: #a6a6a6;
@@ -41,9 +41,9 @@ This theme is meant to be used with the dark version of discord
   --ChannelsDarkTextColor: #666666;
 
   /* Wallpaper brightness | change this value from 0 to 1 */
-  --brightness: 0.3;
+  --brightness: 0.2;
 
   /* Home button */
-  --HomeButtonImg: url("https://i.imgur.com/c7OJDHl.jpg");
+  --HomeButtonImg: url("https://i.imgur.com/O0lNMMJ.jpg");
 }
 /*###################################################################################################*/
