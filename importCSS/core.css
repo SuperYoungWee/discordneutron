@@ -31,7 +31,17 @@ This theme is meant to be used with the dark version of discord
 .bd-sidebarView .bd-contentRegion {box-shadow: none;}
 .bd-settingsButton {width: 55px;background: rgba(0,0,0,.6);height: 40px;}
 body:not(.bd-hideButton) [class*='guildsWrapper-'] {padding-top: 40px !important;}*/
-
+/* Themes & plugins errors */
+.bd-modal-wrapper .header,
+.bd-modal-wrapper .bd-modal-body {
+  background: rgba(0,0,0,.5);
+}
+.bd-modal-wrapper .footer button {
+  background-color: var(--mainColor);
+}
+.bd-modal-wrapper .footer button:hover {
+  background-color: var(--mainDarker);
+}
 /* Server settings */
 .standardSidebarView-3F1I7i, .standardSidebarView-3F1I7i {
   background-color: rgba(0,0,0,0.5);
@@ -235,7 +245,6 @@ body:not(.bd-hideButton) [class*='guildsWrapper-'] {padding-top: 40px !important
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-image: var(--bgImage) !important;
-
 }
 /*  MESSAGES  */
 .channelTextArea-rNsIhG {margin: 5px 0 5px;padding-top: 3px !important;}
