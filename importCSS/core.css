@@ -1,5 +1,5 @@
 /*###################################################################################################
-Neutron Theme for Better Discord
+NeutronX Theme for Better Discord
 
 The author (Spectra#7698) retains full rights of this code.
 You are not allowed to redistribute this theme or any part of it as your own. That means do not post an edited version of this theme anywhere.
@@ -9,7 +9,7 @@ If you enjoy using the theme, help spread the word!
 This theme is meant to be used with the dark version of discord
 ###################################################################################################*/
 :root {
-  --bgImage: url("https://i.imgur.com/8GNiJCd.png");
+  --bgImage: url("https://img2.goodfon.com/original/3150x2296/2/92/tumannost-rosette-rozetka-6347.jpg");
   --mainColor: #3366ff;
   --mainDarker: #0039e6;
   --dark: #16181d;
@@ -24,6 +24,16 @@ This theme is meant to be used with the dark version of discord
   --ChannelsDarkTextColor: #666666;
   --brightness: 0.3;
   --HomeButtonImg: url("https://i.imgur.com/c7OJDHl.jpg");
+  --DangerColor: #dc3545; /* Color showing a danger or an important action */
+  --WarningColor: #ffc107; /* Color for stuff you should look for */
+  --SuccesColor: #28a745; /* Color showing a succesful action */
+  --InfoColor: #17a2b8; /* Color showing an information or basic action */
+  --DangerColor02: #ad1f2d; /* Color showing a danger or an important action (darker) */
+  --WarningColor02: #cc9900; /* Color for stuff you should look for (darker) */
+  --SuccesColor02: #1e7b34; /* Color showing a succesful action (darker) */
+  --InfoColor02: #117888; /* Color showing an information or basic action (darker)*/
+  --DefaultColor: #6c757d; /* Default color */
+  --DefaultColor02: #5a6268;/* Default color (darker)*/
 }
 /* Better Discord V2 *//*
 .bd-sidebarView .bd-sidebarRegion,
@@ -132,7 +142,7 @@ body:not(.bd-hideButton) [class*='guildsWrapper-'] {padding-top: 40px !important
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
   border-left: 4px solid var(--mainColor);
 }
-.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+.nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F, .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
   padding-left: 7px;
 }
 /* less bright backgorund */
@@ -1033,4 +1043,110 @@ a,.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
 }
 .switch-3wwwcV .da-switch {
   border-radius: 6px !important;
+}
+.theme-dark .memberOnline-1CIh-0 {
+  border-radius: 4px !important;
+}
+.invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV{background-color: var(--DefaultColor);}
+.online-2S838R {background-color: var(--SuccesColor);}
+.statusProfile-3ynqtt.online-2S838R {
+  background-color: transparent;
+  box-shadow: 0 0 15px 0.5px var(--SuccesColor);
+  border: 4px solid var(--SuccesColor);
+  animation-name: growNshrink;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes growNshrink {
+  0% {box-shadow: 0 0 15px 0.5px var(--SuccesColor);}
+  50% {box-shadow: 0 0 15px 4px var(--SuccesColor);}
+  100% {box-shadow: 0 0 15px 0.5px var(--SuccesColor);}
+}
+.statusProfile-3ynqtt.idle-3DEnRT {
+  background-color: transparent;
+  box-shadow: 0 0 15px 0.5px var(--WarningColor);
+  border: 4px solid var(--WarningColor);
+}
+.statusProfile-3ynqtt.dnd-1_xrcq {
+  background-color: transparent;
+  box-shadow: 0 0 15px 0.5px var(--DangerColor);
+  border: 4px solid var(--DangerColor);
+}
+.statusProfile-3ynqtt.invisible-1kp8Z0,
+.statusProfile-3ynqtt.offline-3qoTek,
+.statusProfile-3ynqtt.unknown-Ms2zdV {
+  background-color: transparent;
+  box-shadow: none;
+  border: 4px solid var(--DefaultColor);
+}
+.statusProfile-3ynqtt {
+  background-size: 12px;
+  bottom: -4px;
+  height: 100%;
+  position: absolute;
+  right: -4px;
+  width: 100%;
+  border-radius: 50%;
+  z-index: 0;
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {background-color: var(--BackgroundColor02);}
+.headerTop-3C2Zn0,
+.headerPlaying-j0WQBV {
+  background-color: var(--BackgroundColor04);
+  background-image: url('https://discordapp.com/assets/8eba753f8b6d02be1013c5e659b0fc2f.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.membersGroup-v9BXpm {color: var(--PrimaryColor01) !important;}
+.popout-2fzvxG, .profile-ZOdGIb {z-index: 50;}
+.activity-11LB_k {
+ overflow: hidden;
+ position: relative;
+ background-color: var(--PrimaryColor01);
+ background-image: linear-gradient(-90deg, var(--PrimaryColor01), var(--PrimaryColor02));
+ box-shadow: 0px 5px 5px rgba(0,0,0,.3), 0px -5px 5px rgba(0,0,0,.3);
+}
+.theme-dark .quickMessage-1yeL4E {background-color: var(--BackgroundColor01); border: 1px solid var(--BackgroundColor04);}
+.bodyTitle-Y0qMQz {
+  color:;
+  border-bottom: 2px solid var(--PrimaryColor01);
+  background-color: var(--BackgroundColor04);
+  padding: 2px 5px 2px 5px;
+  border-radius: 0;
+}
+.theme-dark .note-3kmerW textarea:focus {background-color: var(--BackgroundColor04);border-radius: 50px;}
+.headerTop-3C2Zn0 {border-bottom: 1px solid var(--BackgroundColor01);}
+.body-3iLsc4 {border-top:1px solid var(--BackgroundColor04);}
+.inline-136HKr .pro-1T8RK7 {color: var(--SuccesColor);}
+.activity-11LB_k:after,
+.activity-11LB_k:before {
+  content: "";
+  position: absolute;
+  height: 500%;
+  top:-100px;
+  left:-100%;
+  display: ;
+  background: hsla(0,0%,100%,.2);
+  transform: rotate(45deg);
+  animation-duration: 5.5s;
+  animation-iteration-count: infinite;
+  animation-name: shine-animation;
+  animation-timing-function: ease-in-out;
+}
+.activity-11LB_k:after {
+  margin-left: 7.5%;
+  width: 5%;
+}
+.activity-11LB_k:before {
+  width: 20%;
+}
+@keyframes shine-animation {
+  81.82% {
+    left: -100%;
+  }
+  100% {
+    left: 150%;
+  }
 }
