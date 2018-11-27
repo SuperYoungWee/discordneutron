@@ -1,16 +1,13 @@
 # Discord Neutron
 help me to make this theme even better! Join the discord server!
 Suggestions and bugs repport are welcome
-https://discord.gg/6adpWpJ
+https://discord.gg/nfggDZz
 
 # What is Discord Neutron ?
 Discord Neutron is a theme meant to improve your experience. Discord Neutron is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
 
-#### Wallpaper version
-![Neutron Wallpaper](https://i.imgur.com/hAuRPcU.jpg)
-
-#### Default version
-![Neutron](https://i.imgur.com/sdgy0uS.png)
+#### Neutron X
+![Neutron X](https://i.imgur.com/LNtTeZi.jpg)
 
 # Installation
 1. Download your favorite Neutron version
@@ -20,42 +17,13 @@ Discord Neutron is a theme meant to improve your experience. Discord Neutron is 
 5. Go to `Discord -> Settings -> Themes` and turn on your theme
 
 ### Customize
-* if you want the default version copy this in the custom css editor : `.layer-3QrUeG {background-image: url("") !important;}`
+use the custom css editor in Better discord and copy this
 
-use the custom css editor in Better discord
-you can find color variants in the "other colors" folder, just copy the hex codes
+https://pastebin.com/raw/irE3LL3t
 
-    :root {
-       /* Background image */
-       --bgImage: url("IMAGE URL HERE");
+Change the values to your liking!
 
-       /* Main theme color */
-       --mainColor: #7289da;
-       --mainDarker: #4a67cf;
 
-       /* theme colors */
-       --dark: #16181d;
-       --medium: #21252b;
-       --light: #282c34;
-
-       /* Text colors */
-       --links: #da5858;
-       --ChatTextColor: #fff;
-       --memberGroupColor: #fff;
-       --UserPlayingTextColor: #a6a6a6;
-       --ChannelsSelectedTextColor: #fff;
-       --ChannelsDefaultTextColor: #8c8c8c;
-       --ChannelsDarkTextColor: #666666;
-
-       /* Wallpaper brightness | change this value from 0 to 1 */
-       --brightness: 0.2;
-
-       /* Home button */
-       --HomeButtonImg: url("IMAGE URL HERE");
-     }
-
- ### Don't like the small server icons ?
- delete the server icons section from the theme
 
 # Changelog
 
