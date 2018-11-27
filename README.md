@@ -1,10 +1,10 @@
 # Discord Neutron
 help me to make this theme even better! Join the discord server!
-Suggestions and bugs repport are welcome
+Suggestions and bugs reports are welcome
 https://discord.gg/nfggDZz
 
 # What is Discord Neutron ?
-Discord Neutron is a theme meant to improve your experience. Discord Neutron is made to be highly customizable and even more compact. The theme has been updated to support Discord's lastests updates, I also made a few fixes just an hour later! You can easily change the theme's colors using HEX or RGB.
+Discord Neutron is a theme meant to improve your experience. Discord Neutron is made to be highly customizable and even more compact. The theme is always updated just a few hours (max) after discords updates
 
 #### Neutron X
 ![Neutron X](https://i.imgur.com/LNtTeZi.jpg)
@@ -22,8 +22,6 @@ use the custom css editor in Better discord and copy this
 https://pastebin.com/raw/irE3LL3t
 
 Change the values to your liking!
-
-
 
 # Changelog
 
