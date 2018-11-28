@@ -58,6 +58,12 @@ If you enjoy using the theme, help spread the word!
 My Discord Server : discord.gg/nfggDZz
 
 */
+/* users loading placeholders */
+.placeholderAvatar-damqh6 {background-color: rgba(0,0,0,.4) !important;}
+.placeholderUsername-2B_OA9,
+.da-placeholderUsername {
+  background-color: rgba(0,0,0,.4) !important;
+}
 /* embeds */
 .theme-dark .embedInner-1-fpTo {
   background-color: rgba(0,0,0,.45);
