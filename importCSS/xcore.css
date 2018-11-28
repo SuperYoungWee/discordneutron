@@ -66,6 +66,9 @@ My Discord Server : discord.gg/nfggDZz
 /* speaking */
 .avatarSpeaking-1wJCNq {box-shadow: 0 0 0 2px var(--SuccesColor);}
 /* emojis */
+.emoji-picker, .emojiPicker-3m1S-j {
+  border-radius: 4px;
+}
 .popout-3sVMXz {border-radius: 4px;}
 .bda-dark #bda-qem,
 .bda-dark #bda-qem-favourite-container,
@@ -817,6 +820,16 @@ svg[class="premiumHeaderIcon-bTc_nQ"] path {fill:#fff;}
   border: none;
 }
 .theme-dark .markup-2BOw-j {position: relative;}
+.buttonContainer-KtQ8wc {
+  position: relative;
+}
+.buttonContainer-37UsAw > div {
+  z-index: 1000;
+}
+.container-3cGP6G {
+  background-color: var(--NTBackgroundColor04) !important;
+  border: none;
+}
 .hljs {overflow: visible !important;margin-top: 25px;border-radius: 0 4px 4px 4px;}
 .css:before {
   content: "CSS";
