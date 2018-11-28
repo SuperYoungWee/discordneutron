@@ -58,11 +58,23 @@ If you enjoy using the theme, help spread the word!
 My Discord Server : discord.gg/nfggDZz
 
 */
+/* users profile */
+.theme-dark .body-3ND3kc {
+  background-color: var(--NTBackgroundColor03) !important;
+}
+.topSectionPlaying-1J5E4n {
+  background-color: var(--PrimaryColor01);
+}
+.topSectionPlaying-1J5E4n .headerFill-adLl4x {
+  box-shadow: 0px 5px 5px rgba(0,0,0,.3), 0px -5px 5px rgba(0,0,0,.3);
+  background-image: linear-gradient(to bottom right, var(--PrimaryColor02), var(--PrimaryColor01));
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {color:var(--PrimaryColor01);}
 /* users loading placeholders */
-.placeholderAvatar-damqh6 {background-color: rgba(0,0,0,.4) !important;}
+.placeholderAvatar-damqh6 {background-color: rgba(0,0,0,.85) !important;}
 .placeholderUsername-2B_OA9,
 .da-placeholderUsername {
-  background-color: rgba(0,0,0,.4) !important;
+  background-color: rgba(0,0,0,.85) !important;
 }
 /* embeds */
 .theme-dark .embedInner-1-fpTo {
