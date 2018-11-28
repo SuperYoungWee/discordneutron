@@ -10,7 +10,7 @@ Discord theme : dark
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 :root {
     /* Images */
-    --bgImage: url('https://discordapp.com/assets/da840b1a6c5d073ca1c6710f8967502a.svg');
+    --bgImage: url('https://img5.goodfon.com/original/2560x1440/9/24/astronaut-propast-noch-nebo-planeta-fantastika-skafandr.jpg');
     --HomeButtonImg: url("https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/homeBtn.png");
     --brightness: 0.4;
 
@@ -63,6 +63,18 @@ My Discord Server : discord.gg/nfggDZz
   background-color: rgba(0,0,0,.45);
   border: none;
 }
+/* search popup */
+.theme-dark .resultsGroup-r_nuzN {background-color: var(--NTBackgroundColor04);}
+.theme-dark .resultsGroup-r_nuzN .header-2N-gMV {
+  background-color: rgba(0,0,0,.3);
+  border-bottom: 2px solid var(--PrimaryColor01);
+  margin: 0;
+}
+.theme-dark .resultsGroup-r_nuzN .searchClearHistory-2cSSMO,
+.theme-dark .resultsGroup-r_nuzN .searchLearnMore-3SQUAj {
+  background-color: transparent;
+}
+.theme-dark .resultsGroup-r_nuzN .plusIcon-v0BTrL {}
 /* upload modal */
 .uploadModal-2ifh8j {
   background-color: var(--PrimaryColor01);
