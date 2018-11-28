@@ -63,6 +63,19 @@ My Discord Server : discord.gg/nfggDZz
   background-color: rgba(0,0,0,.45);
   border: none;
 }
+/* upload modal */
+.uploadModal-2ifh8j {
+  background-color: var(--PrimaryColor01);
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+  background-color: rgba(0,0,0,.3);
+}
+.uploadModal-2ifh8j .footer-3mqk7D .button {
+  background-color: transparent;
+}
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary {color: var(--PrimaryColor01); background-color: #fff;}
+.uploadModal-2ifh8j .footer-3mqk7D .button-primary:hover {color:#fff;background-color: var(--PrimaryColor02);}
+.uploadModal-2ifh8j .inner-3nWsbo {border-color: rgba(0,0,0,.2);}
 /* bbd settings */
 #plugin-settings-BetterCustomCSS input {
   background-color: var(--NTBackgroundColor04);
