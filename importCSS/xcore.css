@@ -63,6 +63,37 @@ My Discord Server : discord.gg/nfggDZz
   background-color: rgba(0,0,0,.45);
   border: none;
 }
+/* bbd settings */
+#plugin-settings-BetterCustomCSS input {
+  background-color: var(--NTBackgroundColor04);
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+}
+#plugin-settings-BetterCustomCSS button {
+  background-color: var(--PrimaryColor01);
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 2px 7px 2px 7px;
+}
+#plugin-settings-BetterCustomCSS button[onClick*="save"]{
+  margin-right: 5px;
+}
+.bda-slist li {max-height: 300px;}
+.bda-slist .bda-footer {
+  display: flex;
+  overflow: visible;
+}
+.bda-slist .bda-footer a {color: inherit;}
+a[class*="bda-link-website"],
+a[class*="bda-link-source"] {
+  background-color: var(--InfoColor);
+  color: #fff;
+  border-radius: 4px;
+  padding: 1.5px 3px 1.5px 3px;
+}
 /* speaking */
 .avatarSpeaking-1wJCNq {box-shadow: 0 0 0 2px var(--SuccesColor);}
 /* emojis */
