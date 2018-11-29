@@ -1549,7 +1549,10 @@ svg[class="premiumHeaderIcon-bTc_nQ"] path {fill:#fff;}
   margin: 0;
 }
 /* custom font */
-*:not([class*="hljs"]):not(code) {font-family: var(--customFont) !important;}
+body:not([class*="hljs"]):not(code):not([class*="ace_"]) {font-family: var(--customFont) !important;}
+.ace_editor {
+  font: 17px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace !important;
+}
 /* background brightness */
 .app {
   background: rgba(0,0,0, var(--brightness));
