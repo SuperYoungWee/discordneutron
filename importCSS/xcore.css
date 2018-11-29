@@ -70,6 +70,16 @@ My Discord Server : discord.gg/nfggDZz
   background-image: linear-gradient(to bottom right, var(--PrimaryColor02), var(--PrimaryColor01));
 }
 .lookInverted-2D7oAl.colorBrand-3pXr91 {color:var(--PrimaryColor01);}
+.topSectionSpotify-1lI0-P {
+  background-color: #10c903;
+}
+.topSectionSpotify-1lI0-P .headerFill-adLl4x {
+  background-color: #0c9602;
+  background-image: url('https://discordapp.com/assets/da840b1a6c5d073ca1c6710f8967502a.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 105%;
+}
 /* users loading placeholders */
 .placeholderAvatar-damqh6 {background-color: rgba(0,0,0,.85) !important;}
 .placeholderUsername-2B_OA9,
@@ -400,6 +410,8 @@ svg[name="Nitro"] path {
 .ace_scroller {
   background: var(--NTBackgroundColor02);
 }
+.ace-monokai .ace_gutter-active-line,
+.ace-monokai .ace_marker-layer .ace_active-line {background-color: rgba(0,0,0,.55) !important}
 .ace-monokai .ace_gutter {
   color: #fff;
   background: var(--NTBackgroundColor04) !important;
@@ -904,6 +916,7 @@ svg[class="premiumHeaderIcon-bTc_nQ"] path {fill:#fff;}
   background-color: var(--NTBackgroundColor04) !important;
   border: none;
 }
+.markup-2BOw-j code{position: relative;}
 .hljs {overflow: visible !important;margin-top: 25px;border-radius: 0 4px 4px 4px;}
 .css:before {
   content: "CSS";
@@ -1536,9 +1549,7 @@ svg[class="premiumHeaderIcon-bTc_nQ"] path {fill:#fff;}
   margin: 0;
 }
 /* custom font */
-* {
-  font-family: var(--customFont), sans-serif !important;
-}
+*:not([class*="hljs"]):not(code) {font-family: var(--customFont) !important;}
 /* background brightness */
 .app {
   background: rgba(0,0,0, var(--brightness));
