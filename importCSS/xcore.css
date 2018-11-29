@@ -59,6 +59,12 @@ My Discord Server : discord.gg/nfggDZz
 
 */
 /* users profile */
+.theme-dark .topSectionNormal-2-vo2m {
+  background-color: var(--NTBackgroundColor04) !important;
+  background-size: 100% 200%;
+  background-image: url('https://discordapp.com/assets/da840b1a6c5d073ca1c6710f8967502a.svg');
+  background-repeat: no-repeat;
+}
 .theme-dark .body-3ND3kc {
   background-color: var(--NTBackgroundColor03) !important;
 }
@@ -1550,9 +1556,7 @@ svg[class="premiumHeaderIcon-bTc_nQ"] path {fill:#fff;}
 }
 /* custom font */
 body:not([class*="hljs"]):not(code):not([class*="ace_"]) {font-family: var(--customFont) !important;}
-.ace_editor {
-  font: 17px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace !important;
-}
+.ace_editor {font: 17px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace !important;}
 /* background brightness */
 .app {
   background: rgba(0,0,0, var(--brightness));
