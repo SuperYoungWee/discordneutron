@@ -1,16 +1,16 @@
 /* Compact member list */
 .membersWrap-2h-GB4 {
-  width: 48px;
+  width: 55px;
   min-width:unset;
   transition: all .25s ease;
 }
 .membersWrap-2h-GB4:hover{
-  width: 230px;
+  width: 240px;
 }
 .membersGroup-v9BXpm {
   transition: all .5s ease;
-  transform: scaleY(0);
+  transform: translateX(150px);
 }
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-  transform: scaleY(1);
+  transform: translateX(0);
 }
