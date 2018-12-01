@@ -46,6 +46,10 @@ Discord theme : dark
     --NTBackgroundColor02: #2b3039; /* Background color (less bright) */
     --NTBackgroundColor03: #282c34; /* Background color (dark) */
     --NTBackgroundColor04: #21252c; /* Background color (super dark) */
+
+    /* version */
+    --versionText: "Neutron X v6.0.47";
+    --version: "v6.0.47";
 }
 /* End Config */
 
@@ -534,7 +538,7 @@ svg[name="Nitro"] path {
   border: none;
 }
 #bd-settings-sidebar:after {
-  content: "Neutron X 6.0";
+  content: var(--versionText);
   font-size: 12px;
   font-weight: 600;
   color: rgb(114, 118, 125);
