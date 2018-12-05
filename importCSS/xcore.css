@@ -1629,9 +1629,19 @@ body:not([class*="hljs"]):not(code):not([class*="ace_"]) {font-family: var(--cus
 .theme-dark .headerBar-UHpsPw {
   height: 40px;
 }
+/* limited voice channels */
+.wrapper-2NJDcI {
+  background-color: transparent;
+  color: hsla(0,100%,100%,.5);
+}
 /* wordmark */
-.wordmark-2iDDfm svg {display: none;}
 .wordmark-2iDDfm {
+  background-color: transparent;
+  opacity: .9;
+  pointer-events: all;
+}
+.wordmark-2iDDfm svg path {display: none;}
+.wordmark-2iDDfm svg {
   background-color: transparent;
   background-image: url("https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/wordMark.png");
   background-position: center;
@@ -1641,5 +1651,6 @@ body:not([class*="hljs"]):not(code):not([class*="ace_"]) {font-family: var(--cus
   height: 16px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 10px;
+  margin-left: 0px;
+  display: block;
 }
