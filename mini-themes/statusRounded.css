@@ -85,3 +85,23 @@
   background-color: rgb(116, 127, 141) !important;
 }
 .pulsingEllipsis-3YiXRF {width: 33px;}
+.titleText-3X-zRE .status-oxiHuE {
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.autocompleteRowVertical-q1K4ky .status-oxiHuE {
+  height: 25px;
+  width: 25px;
+}
+.channel-2QD9_O.selected-1HYmZZ .status {
+  height: 32px !important;
+  width: 32px !important;
+}
+.titleText-3X-zRE .online-2S838R {background-color: var(--SuccesColor) !important;}
+.titleText-3X-zRE .dnd-1_xrcq {background-color: var(--DangerColor) !important;}
+.titleText-3X-zRE .idle-3DEnRT {background-color: var(--WarningColor) !important;}
+.titleText-3X-zRE .invisible-1kp8Z0,
+.titleText-3X-zRE .offline-3qoTek,
+.titleText-3X-zRE .unknown-Ms2zdV {background-color: #747f8d !important;}
