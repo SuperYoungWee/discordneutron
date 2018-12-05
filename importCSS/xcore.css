@@ -1654,3 +1654,107 @@ body:not([class*="hljs"]):not(code):not([class*="ace_"]) {font-family: var(--cus
   margin-left: 0px;
   display: block;
 }
+/* settings icons */
+/* discord */
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/account.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/privacy.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/apps.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/connections.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/billing.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(7)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(7)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/nitro.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/nitro.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/hype.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(12)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(12)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/voice.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/overlay.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/notifications.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/keybinds.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/joystick.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/gamepad.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/text.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/eye.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/twitch.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/language.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/windows.png') center;
+}
+.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(24)::before, .platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(24)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/changelog.png') center;
+}
+/* betterdiscord */
+.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before, .platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/core.png') center;
+}
+.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before, .platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/bandages.png') center;
+}
+.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::before, .platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/emote.png') center;
+}
+.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::before, .platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/css.png') center;
+}
+.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before, .platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/plugins.png') center;
+}
+.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::before, .platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::before {
+  background: url('https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/icons/theme.png') center;
+}
+/* icons */
+.side-8zPYf6 .item-PXvHYJ::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-size: cover !important;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-size: cover !important;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.side-8zPYf6 .item-PXvHYJ {padding-left: 40px;}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item {padding-left: 40px;}
