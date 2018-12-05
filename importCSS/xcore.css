@@ -530,12 +530,20 @@ svg[name="Nitro"] path {
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(240, 71, 71);"] {
   color: var(--DangerColor) !important;
 }
-.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover[style*="background-color: rgba(240, 71, 71, 0.0980392);"] {
+.side-8zPYf6 .itemDefault-3Jdr52:hover[style*="background-color: rgba(240, 71, 71, 0.0980392);"] {
   background-color: var(--DangerColor) !important;
   color: #fff !important;
   border-left: 4px solid rgba(0,0,0,.55);
 }
-
+.side-8zPYf6 .item-PXvHYJ:nth-child(9):hover {
+   background-color: rgba(251, 184, 72,.5) !important;
+   color: #fff !important;
+}
+.side-8zPYf6 .itemSelected-1qLhcL:nth-child(9) {
+  background-color: rgba(251, 184, 72,.5) !important;
+  color: #fff !important;
+  border-left: 4px solid rgba(251, 184, 72,.9);
+}
 #bd-settingspane-container .ui-switch-item {
   background-color: rgba(0,0,0,.5);
   border: none;
@@ -550,6 +558,7 @@ svg[name="Nitro"] path {
 .theme-dark #bd-settings-sidebar .ui-tab-bar-header {
   color: #fff !important;
   border-bottom: 2px solid var(--PrimaryColor01);
+  margin-bottom: 10px;
 }
 .bd-pfbtn,
 .bda-slist .bda-footer button {background-color: var(--PrimaryColor01);}
