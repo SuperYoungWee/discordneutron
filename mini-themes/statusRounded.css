@@ -1,0 +1,86 @@
+.statusProfile-3ynqtt.idle-3DEnRT {
+  left: -1px;
+  top: -1px;
+  height: 93px;
+  width: 93px;
+  border: 4px solid var(--WarningColor) !important;
+  box-sizing: border-box;
+  background-color: transparent;
+  box-shadow: 0 0 20px 4px var(--WarningColor);
+}
+.statusProfile-3ynqtt.online-2S838R {
+  left: -1px;
+  top: -1px;
+  height: 93px;
+  width: 93px;
+  border: 4px solid var(--SuccesColor) !important;
+  box-sizing: border-box;
+  background-color: transparent;
+  box-shadow: 0 0 20px 4px var(--SuccesColor);
+}
+.statusProfile-3ynqtt.dnd-1_xrcq {
+  left: -1px;
+  top: -1px;
+  height: 93px;
+  width: 93px;
+  border: 4px solid var(--DangerColor) !important;
+  box-sizing: border-box;
+  background-color: transparent;
+  box-shadow: 0 0 20px 4px var(--DangerColor);
+}
+.statusProfile-3ynqtt.offline-3qoTek {
+  left: -1px;
+  top: -1px;
+  height: 93px;
+  width: 93px;
+  border: 4px solid #747f8d !important;
+  box-sizing: border-box;
+  background-color: transparent;
+  box-shadow: 0 0 20px 4px #747f8d;
+}
+.mask-3OgeRz,
+.maskProfile-1ObLFT {
+  -webkit-mask-size: 0%;
+  -webkit-mask: none !important;
+  mask: none !important;
+}
+.status-oxiHuE {
+  left: -2px;
+  top: -2px;
+  height: 42px;
+  width: 42px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.status-2s6iDp {
+  left: -2.5px;
+  top: -2.5px;
+  height: 34.5px !important;
+  width: 34.5px !important;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.online-2S838R {border: 2px solid var(--SuccesColor) !important;}
+.dnd-1_xrcq {border: 2px solid var(--DangerColor) !important;}
+.idle-3DEnRT {border: 2px solid var(--WarningColor) !important;}
+.invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV {border: 2px solid #747f8d !important;}
+.avatar-small .status {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.menu-Sp6bN1 .status-3fQvEa {
+  height: 15px;
+  width: 15px;
+}
+.menu-Sp6bN1 .online-2S838R {background-color: var(--SuccesColor);}
+.menu-Sp6bN1 .idle-3DEnRT {background-color: var(--WarningColor);}
+.menu-Sp6bN1 .dnd-1_xrcq {background-color: var(--DangerColor);}
+.menu-Sp6bN1 .invisible-1kp8Z0,
+.menu-Sp6bN1 .offline-3qoTek,
+.menu-Sp6bN1 .unknown-Ms2zdV {
+  background-color: rgb(116, 127, 141);
+}
