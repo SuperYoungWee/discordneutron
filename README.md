@@ -17,11 +17,15 @@ Discord Neutron is a theme meant to improve your experience. Discord Neutron is 
 5. Go to `Discord -> Settings -> Themes` and turn on your theme
 
 ### Customize
-use the custom css editor in Better discord and copy this
 
-https://pastebin.com/raw/irE3LL3t
 
 Change the values to your liking!
+
+Option 1. USE MY THEME GENERATOR
+https://codedotspectra.github.io/bdthemegenerator/
+
+Option 2. use the custom css editor in Better discord and copy this
+https://pastebin.com/raw/irE3LL3t
 
 # Changelog
 
