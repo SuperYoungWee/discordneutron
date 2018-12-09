@@ -1439,7 +1439,7 @@ svg[class="premiumHeaderIcon-bTc_nQ"] path {fill:#fff;}
   .theme-dark .footer-1fjuF6 {border-top: 1px solid var(--NTBackgroundColor04);}
   /* shine */
   .activity-11LB_k {
-   overflow: hidden;
+   overflow: visible;
    position: relative;
    box-shadow: 0px 5px 5px rgba(0,0,0,.3), 0px -5px 5px rgba(0,0,0,.3);
   }
@@ -1447,10 +1447,9 @@ svg[class="premiumHeaderIcon-bTc_nQ"] path {fill:#fff;}
   .activity-11LB_k:before {
     content: "";
     position: absolute;
-    height: 580%;
-    top:-300px;
+    height: 200%;
+    top:-50%;
     left:-110%;
-    display: ;
     background: hsla(0,0%,100%,.2);
     transform: rotate(45deg);
     animation-duration: 5.5s;
