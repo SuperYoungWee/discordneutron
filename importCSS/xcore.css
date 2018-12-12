@@ -1577,7 +1577,7 @@ svg[class="premiumHeaderIcon-bTc_nQ"] path {fill:#fff;}
   border-left: 4px solid var(--DangerColor);
 }
 /* messages input */
-.theme-dark .inner-zqa7da {background-color: rgba(0,0,0,.7)}
+.inner-zqa7da {background-color: rgba(0,0,0,.7) !important;width: 99%;}
 .chat-3bRxxu form {
   background: transparent;
   margin: 0;
