@@ -63,6 +63,7 @@ If you enjoy using the theme, help spread the word!
 My Discord Server : discord.gg/nfggDZz
 
 */
+@import "https://raw.githack.com/codedotspectra/discordneutron/master/importCSS/typeWindowMessages.css";
 /* links */
 a {
   color: var(--links) !important;
