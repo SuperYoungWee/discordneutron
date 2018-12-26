@@ -1,3 +1,9 @@
+:root {
+  --DangerColor: #dc3545;
+  --WarningColor: #ffc107;
+  --SuccesColor: #28a745;
+}
+
 .statusProfile-3ynqtt.idle-3DEnRT {
   left: -1px;
   top: -1px;
@@ -52,6 +58,12 @@
   border: 2px solid transparent;
   box-sizing: border-box;
   background-color: transparent !important;
+}
+.videoBackground-3AY_fu .status-oxiHuE {
+  left: 0;
+  top: 0;
+  height: 100px;
+  width: 100px;
 }
 .status-2s6iDp {
   left: -2.5px;
