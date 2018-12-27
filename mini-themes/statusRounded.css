@@ -117,3 +117,17 @@
 .titleText-3X-zRE .invisible-1kp8Z0,
 .titleText-3X-zRE .offline-3qoTek,
 .titleText-3X-zRE .unknown-Ms2zdV {background-color: #747f8d !important;}
+
+#friends .status-oxiHuE {
+  height: 13px;
+  width: 13px;
+  top: 0;
+}
+#friends .invisible-1kp8Z0,
+#friends .offline-3qoTek,
+#friends .unknown-Ms2zdV {
+  background-color: #747f8d !important;
+}
+#friends .online-2S838R {background-color: var(--SuccesColor) !important;}
+#friends .dnd-1_xrcq {background-color: var(--DangerColor) !important;}
+#friends .idle-3DEnRT {background-color: var(--WarningColor) !important;}
