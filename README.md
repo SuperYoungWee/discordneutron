@@ -1,3 +1,5 @@
+# This repo will be deleted in January 2019 ! please update to the new version here : https://github.com/codedotspectra/themes
+
 # Discord Neutron
 help me to make this theme even better! Join the discord server!
 Suggestions and bugs reports are welcome
