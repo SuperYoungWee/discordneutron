@@ -1,58 +1,52 @@
-//META{"name":"Neutron X","description":"A fully customizable and compact theme, now sugar free!","author":"Spectra#7698","version":"6.0","source":"https://github.com/codedotspectra/discordneutron","website":"https://codedotspectra.github.io/me/"}*//{}
-/*
-███╗   ██╗███████╗██╗   ██╗████████╗██████╗  ██████╗ ███╗   ██╗    ██╗  ██╗
-████╗  ██║██╔════╝██║   ██║╚══██╔══╝██╔══██╗██╔═══██╗████╗  ██║    ╚██╗██╔╝
-██╔██╗ ██║█████╗  ██║   ██║   ██║   ██████╔╝██║   ██║██╔██╗ ██║     ╚███╔╝
-██║╚██╗██║██╔══╝  ██║   ██║   ██║   ██╔══██╗██║   ██║██║╚██╗██║     ██╔██╗
-██║ ╚████║███████╗╚██████╔╝   ██║   ██║  ██║╚██████╔╝██║ ╚████║    ██╔╝ ██╗
-╚═╝  ╚═══╝╚══════╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ╚═╝  ╚═╝
-###################################################################################################
-Neutron X Theme for Better Discord
+/**
+ * @name Neutron SL
+ * @version 8.1
+ * @description A simple but highly customizable theme, now sugar free!
+ * @author Spectra
+ * @invite PZdnCVD
+ * @source https://github.com/xcruxiex/themes
+ * @website https://betterdiscord.app/theme/Neutron
+ *//*
+$$\   $$\ $$$$$$$$\ $$\   $$\ $$$$$$$$\ $$$$$$$\   $$$$$$\  $$\   $$\
+$$$\  $$ |$$  _____|$$ |  $$ |\__$$  __|$$  __$$\ $$  __$$\ $$$\  $$ |
+$$$$\ $$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ /  $$ |$$$$\ $$ |
+$$ $$\$$ |$$$$$\    $$ |  $$ |   $$ |   $$$$$$$  |$$ |  $$ |$$ $$\$$ |
+$$ \$$$$ |$$  __|   $$ |  $$ |   $$ |   $$  __$$< $$ |  $$ |$$ \$$$$ |
+$$ |\$$$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ |  $$ |$$ |\$$$ |
+$$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
+\__|  \__|\________| \______/    \__|   \__|  \__| \______/ \__|  \__|
+*/
+@import url("https://xcruxiex.github.io/themes/themes-cores/neutron8.css");
+@import url("https://xcruxiex.github.io/themes/core/badges.css");
+@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Custom font import link (see fonts.google.com) */
+/*##########################################################################
 
-The author (Spectra#7698) retains full rights of this code.
-You are not allowed to redistribute this theme or any part of it as your own. That means do not post an edited version of this theme anywhere.
-You are allowed to edit the theme for personal use only.
-If you enjoy using the theme, help spread the word!
+                 CHANGE VALUES BELOW TO CUSTOMIZE YOU THEME
 
-This theme is meant to be used with the dark version of discord
-###################################################################################################*/
-@import url("https://raw.githack.com/codedotspectra/discordneutron/master/importCSS/xcore.css");
-/*###################################################################################################*/
+##########################################################################*/
 :root {
-    /* Images */
-    --bgImage: url('https://img5.goodfon.com/original/2560x1440/9/24/astronaut-propast-noch-nebo-planeta-fantastika-skafandr.jpg');
-    --HomeButtonImg: url("https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/homeBtn.png");
-    --brightness: 0.4;
+  /* COLORS */
+  --themeColor1: #36D1DC; /* Theme's color 1 */
+  --themeColor2: #5B86E5; /* Theme's color 2 */
 
-    /* font */
-    --customFont: 'Montserrat';
+  /* CUSTOM FONT */
+  --customFont: 'Open sans', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
 
-    /* Colors */
-    --PrimaryColor01: rgb(32, 197, 119); /* Theme's color 01 */
-    --PrimaryColorRGBA: rgba(32, 197, 119, 0.15); /* Theme's color 01 (transparent) */
-    --PrimaryColor02: #07a8c5; /* Theme's color 02 */
-    --DangerColor: #dc3545; /* Color showing a danger or an important action */
-    --WarningColor: #ffc107; /* Color for stuff you should look for */
-    --SuccesColor: #28a745; /* Color showing a succesful action */
-    --InfoColor: #17a2b8; /* Color showing an information or basic action */
-    --DangerColor02: #ad1f2d; /* Color showing a danger or an important action (darker) */
-    --WarningColor02: #cc9900; /* Color for stuff you should look for (darker) */
-    --SuccesColor02: #1e7b34; /* Color showing a succesful action (darker) */
-    --InfoColor02: #117888; /* Color showing an information or basic action (darker)*/
-    --DefaultColor: #6c757d; /* Default color */
-    --DefaultColor02: #5a6268;/* Default color (darker)*/
+  /* HOME BUTTON */
+  --homeImage: url('https://i.imgur.com/YtLbWnZ.jpg');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
 
-    /* Texts colors */
-    --ChatTextColor: hsla(0, 100%, 100%, 1);
-    --RoleTitleColor: hsla(0, 100%, 100%, .95);
-    --UserPlayingTextColor: hsla(0, 100%, 100%, .6);
-    --ChannelsSelectedTextColor: hsla(0, 100%, 100%, .95);
-    --ChannelsDefaultTextColor: hsla(0, 100%, 100%, .6);
-    --ChannelsDarkTextColor: hsla(0, 100%, 100%, .2);
+  /* BACKGROUND */
+  --backgroundColor: #0d0d0d; /* Background color */
+  --backgroundImage: url('https://i.imgur.com/3aUnWlb.jpg'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
+  --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
+  --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
+  --backgroundBlur: 0px; /* Set to 0 to remove blur | Set to 10px for average blur */
+  --backgroundOpacity: .15; /* 0 is transparent */
 
-    /* background colors (non-trasnparent)*/
-    --NTBackgroundColor01: #3a3f4b; /* Background color (bright) */
-    --NTBackgroundColor02: #2b3039; /* Background color (less bright) */
-    --NTBackgroundColor03: #282c34; /* Background color (dark) */
-    --NTBackgroundColor04: #21252c; /* Background color (super dark) */
+  /* CODE BLOCKS */
+  --backgroundCode: rgba(0,0,0,.5);
+  --backgroundName: rgba(0,0,0,.5);
 }
